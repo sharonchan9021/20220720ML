@@ -21,4 +21,55 @@
     - 12.5 套用聚合函數、轉換以及過濾
     - 12.6 轉換分組資料
     - 12.7 過濾分組資料
-##
+# Combining and Merging Datasets（合併資料集）
+- join：連接
+- combine：合併
+- reshape：整形
+- merge：歸併
+- concatenate：串聯
+- pivot：旋轉
+- stack：堆疊
+
+## concatenate：串聯
+```python
+df1 = pd.DataFrame(np.arange(9).reshape(3, 3), columns=['a', 'b', 'c'])
+df2 = pd.DataFrame(np.arange(9, 18).reshape(3, 3),  columns=['a', 'b', 'c'])
+pd.concat([df1, df2])
+```
+```python
+df3 = pd.DataFrame(np.arange(9).reshape(3, 3), columns=['a', 'b', 'c'])
+df4 = pd.DataFrame(np.arange(9, 18).reshape(3, 3), columns=['a', 'c', 'd'])
+pd.concat([df3, df4])
+```
+## merge (資料庫風格的DataFrame Joins)
+```python
+import numpy as np
+import pandas as pd
+
+import datetime
+from datetime import datetime, date
+
+
+customers = {'CustomerID': [10, 11],
+             'Name': ['Mike', 'Marcia'],
+             'Address': ['Address for Mike',
+                         'Address for Marcia']}
+customers = pd.DataFrame(customers)
+
+orders = {'CustomerID': [10, 11, 10],
+          'OrderDate': [date(2014, 12, 1),
+                        date(2014, 12, 1),
+                        date(2014, 12, 1)]}
+orders = pd.DataFrame(orders)
+
+customers.merge(orders)
+```
+
+## Pivoting 運算
+```
+!wget https://raw.githubusercontent.com/PacktPublishing/Learning-Pandas-Second-Edition/master/data/accel.csv
+
+sensor_readings = pd.read_csv("./accel.csv")
+sensor_readings[sensor_readings['axis'] == 'X']
+sensor_readings.pivot(index='interval', columns='axis', values='reading')
+```
