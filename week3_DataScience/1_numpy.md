@@ -252,7 +252,7 @@ arr
 np.sqrt(arr)
 np.exp(arr)
 ```
-- [Rounding Decimals](https://www.w3schools.com/python/numpy/numpy_ufunc_rounding_decimals.asp)
+- 作業[Rounding Decimals](https://www.w3schools.com/python/numpy/numpy_ufunc_rounding_decimals.asp)
   - There are primarily five ways of rounding off decimals in NumPy:
     - truncation
     - fix
