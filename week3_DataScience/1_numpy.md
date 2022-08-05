@@ -18,7 +18,7 @@ ndarray的屬性: 軸(axis)|維度(dimension):ndim/秩rank |形狀(shape):shape|
 4.A矩陣與B矩陣間的運算
 5.Universal function 與向量化運算(Vectorization computation)
 ```
-## 1numpy資料型態 ndarray及其屬性
+## 1_numpy資料型態 ndarray及其屬性
 - 資料型態 ==> N-Dimensional Arrays(ndarray)
 - ndarray的屬性: 
   - 軸(axis)|維度(dimension):{ndim|秩rank} |形狀(shape):shape|dtype(資料型態:data type)| 大小(元素個數):size
