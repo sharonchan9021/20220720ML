@@ -22,7 +22,7 @@
 
 ## 整體架構
 
-![Pandas_IO.PNG](./Pandas_IO.PNG)
+![Pandas_IO.PNG](./Pandas_IO.png)
 
 ## 延伸學習
 
