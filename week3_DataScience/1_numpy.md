@@ -80,6 +80,7 @@ intf_ar=f_ar.astype(int)
 intf_ar
 ```
 # 2.基本運算
+
 ## 基本運算1: 建立各式各樣的ndarray
 - [完成底下函式的說明]
 - 建立元素都是 0/1 的陣列 – zeros()/ones()
@@ -164,7 +165,7 @@ arr
 - 計算共變異數 – cov() 
 - 計算相關係數 – corrcoef()
 
-- 計算相關係數 – corrcoef()
+- [相關係數 – corrcoef()](https://numpy.org/doc/stable/reference/generated/numpy.corrcoef.html)
   - [參考資料](https://blog.csdn.net/small__roc/article/details/123519616?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-123519616-blog-114920517.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-123519616-blog-114920517.pc_relevant_default&utm_relevant_index=1) 
   - 皮爾森相關係數|皮爾森積矩相關係數(Pearson product-moment correlation coefficient) 
   - 是一種線性相關係數，是最常用的一種相關係數 記為r
@@ -191,6 +192,9 @@ arr
 - 計算卷積 – convolve()
 - 將連續值轉換為離散值 – digitize()
 
+### 更多函數 請參閱底下
+- [數學函數Mathematical functions]() 
+- [Logic functions](https://numpy.org/doc/stable/reference/routines.logic.html)
 ## 3.特殊運算 ==> [陣列擴張|廣播 (Broadcasting)](https://numpy.org/doc/stable/user/basics.broadcasting.html)
 - https://jakevdp.github.io/PythonDataScienceHandbook/02.05-computation-on-arrays-broadcasting.html
 - General Broadcasting Rules
