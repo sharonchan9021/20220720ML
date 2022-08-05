@@ -1,3 +1,4 @@
+### pandas
 
 
 ## 1_pandas Data Structures| pandas的資料結構 ==> series vs DataFrame
@@ -5,8 +6,8 @@
 
 ### 1_1_series的運算 see [CHAPTER 5 Getting Started with pandas](https://github.com/LearnXu/pydata-notebook/blob/master/Chapter-05/5.1%20Introduction%20to%20pandas%20Data%20Structures%EF%BC%88pandas%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%89.ipynb)
 - 建立series
-  - 使用pandas.Series() 
-  - 使用字典資料型態傳入pandas.Series() 
+  - 使用pandas.Series()建立 series
+  - 使用字典資料型態建立pandas.Series() 
 - 搜尋滿足條件的資料
 
 
@@ -26,7 +27,6 @@ obj.values
 obj.index
 ```
 
-#### (2)使用[pandas.Series()](https://pandas.pydata.org/docs/reference/api/pandas.Series.html) 建立Series
 ```python
 obj2 = pd.Series([4, 7, -5, 3], index=['d', 'b', 'a', 'c'])
 obj2
@@ -75,7 +75,7 @@ import numpy as np
 np.exp(obj2)
 ```
 
-#### 利用dict來創建series
+#### 使用字典資料型態建立pandas.Series() 
 ```python
 sdata = {'Ohio': 35000, 'Texas': 71000, 'Oregon':16000, 'Utah': 5000}
 
@@ -195,6 +195,7 @@ frame2.columns
 ## 資料提取
 - 提取一column(列)
 - 提取一row(行)
+
 ### 從DataFrame提取一列(底下兩種提取方法)== > 回傳給你一個series
 ```python
 frame2['state']
