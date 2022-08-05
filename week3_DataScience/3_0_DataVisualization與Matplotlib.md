@@ -1,14 +1,11 @@
 # Data Visualization
-
-```
-Matplotlib
-Seaborn
-pyechart
-plotly
-```
+- Matplotlib
+  - [Matplotlib: Visualization with Python](https://matplotlib.org/)
 - Seaborn
   - [seaborn: statistical data visualization](https://seaborn.pydata.org/) 
   - Colab 已有支援
+- Pygal
+  - [Pygal:Beautiful python charting](https://www.pygal.org/en/stable/) 
 - pyechart
   - [A Python Echarts Plotting Library](https://pyecharts.org/) 
 - Plotly
