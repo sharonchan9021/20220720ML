@@ -1,4 +1,4 @@
-## 5.[Numpy random模組](https://numpy.org/doc/1.16/reference/routines.random.html)
+## [Numpy random模組](https://numpy.org/doc/1.16/reference/routines.random.html)
 - Numpy random模組有許多函數(如下),本課程僅交簡單與常用的
 ```python
 import numpy as np
@@ -27,7 +27,7 @@ bytes(length)	Return random bytes.
 shuffle(x)	Modify a sequence in-place by shuffling its contents.
 permutation(x)	Randomly permute a sequence, or return a permuted range.
 ```
-### (3)Distributions
+### (3)Distributions各式各樣的機率分布
 ```
 beta(a, b[, size])	Draw samples from a Beta distribution.
 binomial(n, p[, size])	Draw samples from a binomial distribution.
@@ -65,7 +65,7 @@ wald(mean, scale[, size])	Draw samples from a Wald, or inverse Gaussian, distrib
 weibull(a[, size])	Draw samples from a Weibull distribution.
 zipf(a[, size])	Draw samples from a Zipf distribution.
 ```
-### (4)Random generator
+### (4)Random generator亂數產生器
 ```
 RandomState([seed])	Container for the Mersenne Twister pseudo-random number generator.
 seed([seed])	Seed the generator.
