@@ -156,7 +156,7 @@ arr
 
 
 
-### 基本運算4: ndarray的基本統計運算 ==> 進階統計功能請參閱python統計書籍
+### [基本運算4: ndarray的基本統計運算](https://numpy.org/doc/stable/reference/routines.statistics.html) ==> 進階統計功能請參閱python統計書籍
 - 計算元素平均值 – average() 與 mean()
 - 計算中位數 – median()
 - 計算元素總和 – sum()
@@ -193,7 +193,7 @@ arr
 - 將連續值轉換為離散值 – digitize()
 
 ### 更多函數 請參閱底下
-- [數學函數Mathematical functions]() 
+- [數學函數Mathematical functions](https://numpy.org/doc/stable/reference/routines.math.html) 
 - [Logic functions](https://numpy.org/doc/stable/reference/routines.logic.html)
 ## 3.特殊運算 ==> [陣列擴張|廣播 (Broadcasting)](https://numpy.org/doc/stable/user/basics.broadcasting.html)
 - https://jakevdp.github.io/PythonDataScienceHandbook/02.05-computation-on-arrays-broadcasting.html
