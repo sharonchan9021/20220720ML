@@ -9,7 +9,6 @@ plotly
 - Seaborn
   - [seaborn: statistical data visualization](https://seaborn.pydata.org/) 
   - Colab 已有支援
-  - 
 - pyechart
   - [A Python Echarts Plotting Library](https://pyecharts.org/) 
 - Plotly
