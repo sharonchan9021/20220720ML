@@ -148,6 +148,7 @@ arr
 (3)dimension =?
 (4)dtype
 ```
+- 更多範例 請參閱 [官方說明Array creation routines]([https://numpy.org/doc/stable/reference/ufuncs.html](https://numpy.org/doc/stable/reference/routines.array-creation.html))
 
 ## 2_ndarray的各種運算
 
@@ -271,3 +272,4 @@ arr5 = np.ceil([-3.1666, 3.6667])
 
 print(arr1)
 ```
+- 更多範例 請參閱 [官方說明Universal functions (ufunc)](https://numpy.org/doc/stable/reference/ufuncs.html)
