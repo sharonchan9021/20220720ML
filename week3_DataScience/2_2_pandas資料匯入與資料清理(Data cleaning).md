@@ -177,3 +177,44 @@ len(dfs)
 dfs[0]
 dfs[1]
 ```
+
+## 5_存取資料庫資料
+- 使用SQLite3
+- 先下載[stocks.sqlite](https://github.com/PacktPublishing/Learning-Pandas-Second-Edition/blob/master/data/stocks.sqlite)並上傳到colab 
+- 或是先執行 !wget https://github.com/PacktPublishing/Learning-Pandas-Second-Edition/blob/master/data/stocks.sqlite?raw=true
+```
+# reference SQLite
+import sqlite3
+
+# read in the stock data from CSV
+msft = pd.read_csv("https://raw.githubusercontent.com/PacktPublishing/Learning-Pandas-Second-Edition/master/data/msft.csv")
+msft["Symbol"]="MSFT"
+aapl = pd.read_csv("https://raw.githubusercontent.com/PacktPublishing/Learning-Pandas-Second-Edition/master/data/aapl.csv")
+aapl["Symbol"]="AAPL"
+
+# create connection
+connection = sqlite3.connect("data/stocks.sqlite")
+# .to_sql() will create SQL to store the DataFrame
+# in the specified table.  if_exists specifies
+# what to do if the table already exists
+msft.to_sql("STOCK_DATA", connection, if_exists="replace")
+aapl.to_sql("STOCK_DATA", connection, if_exists="append")
+
+# commit the SQL and close the connection
+connection.commit()
+connection.close()
+# connect to the database file
+connection = sqlite3.connect("data/stocks.sqlite")
+
+# query all records in STOCK_DATA
+# returns a DataFrame
+# inde_col specifies which column to make the DataFrame index
+stocks = pd.io.sql.read_sql("SELECT * FROM STOCK_DATA;", 
+                             connection, index_col='index')
+
+# close the connection
+connection.close()
+
+# report the head of the data retrieved
+stocks[:5]
+```
