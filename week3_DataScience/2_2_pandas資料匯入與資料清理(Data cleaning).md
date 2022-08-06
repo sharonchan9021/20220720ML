@@ -152,7 +152,10 @@ beatles
 # orient參數 == > 設定不同輸出格式
 # orient='records'
 # orient='split'
-# 請驗證其資料讀取時仍會呈現相同結果
+# orient='index'
+# orient='values'
+# orient='table'
+# 請驗證其資料讀取時呈現的結果
 
 records = beatles.to_json(orient='records')
 records
@@ -167,3 +170,10 @@ pd.read_json(records,orient='records)
   - [[Pandas教學]掌握Pandas DataFrame讀取網頁表格的實作技巧](https://www.learncodewithmike.com/2020/11/read-html-table-using-pandas.html)  
 - [pandas.DataFrame.to_html](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_html.html)
   - [[Pandas教學]利用Pandas套件的to_html方法在網頁快速顯示資料分析結果](https://www.learncodewithmike.com/2021/07/pandas-to-html.html) 
+```python
+url ='https://en.wikipedia.org/wiki/The_Beatles_discography'
+dfs = pd.read_html(url)
+len(dfs)
+dfs[0]
+dfs[1]
+```
