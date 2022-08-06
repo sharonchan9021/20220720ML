@@ -1,4 +1,7 @@
-
+## 推薦書籍
+- [matplotlib 2D 到 3D 資料視覺化王者歸來 (全彩印刷)洪錦魁](https://www.tenlong.com.tw/products/9789860776959?list_name=srh)
+- [Matplotlib 3.0 Cookbook](https://www.packtpub.com/product/matplotlib-3-0-cookbook/9781789135718)
+  - [GITHUB](https://github.com/PacktPublishing/Matplotlib-3.0-Cookbook) 
 
 ## 產生滿足機率分布的直方圖
 ```python
@@ -18,3 +21,6 @@ plt.show()
 plt.hist(uniform_samples)
 plt.show()
 ```
+
+
+## 多表並陳
