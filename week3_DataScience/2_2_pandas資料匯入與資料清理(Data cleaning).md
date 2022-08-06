@@ -131,9 +131,27 @@ df.to_excel("./stocks2.xls")
 - [JSON](https://zh.wikipedia.org/wiki/JSON)
 - XML vs JSON
 - Reading and writing JSON files
-
+- 範例來源:https://github.com/PacktPublishing/Pandas-Cookbook-Second-Edition/blob/master/Chapter03/c3-code.ipynb
 ```python
 
+# 建立DataFrame 
+fname = ['Paul', 'John', 'Richard', 'George']
+lname = ['McCartney', 'Lennon', 'Starkey', 'Harrison']
+birth = [1942, 1940, 1940, 1943]
+people = {'first': fname, 'last': lname, 'birth': birth}
+beatles = pd.DataFrame(people)
+
+# 編碼成json格式
+import json
+encoded = json.dumps(people)
+encoded
+# 使用loads()載入 json檔 == > 回傳一個dict
+json.loads(encoded)
+# 
+beatles = pd.read_json(encoded)
+beatles
+records = beatles.to_json(orient='records')
+records
 ```
 ### 4_讀取網頁表格資料 
 - [pandas.read_html()](https://pandas.pydata.org/docs/reference/api/pandas.read_html.html)
