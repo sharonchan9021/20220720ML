@@ -4,7 +4,10 @@
   - [GITHUB](https://github.com/PacktPublishing/Matplotlib-3.0-Cookbook) 
 - [Matplotlib 3.5.2 documentation](https://matplotlib.org/stable/users/getting_started/)
 
-##
+## Elements of a Figure
+- [解說圖形組成](https://github.com/PacktPublishing/Matplotlib-3.0-Cookbook/blob/master/Chapter01/Chapter%201%20-%20Anatomy%20of%20Matplotlib.ipynb)
+
+## 官方範例
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
