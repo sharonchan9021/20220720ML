@@ -6,7 +6,10 @@ np.random.seed(0)
 
 x1 = np.random.randint(10, size=6) 
 x2 = np.random.randint(10, size=(3, 4)) 
-x3 = np.random.randint(10, size=(3, 4, 5))  
+x3 = np.random.randint(10, size=(3, 4, 5)) 
+x4 = np.random.rand(3,2)
+x5 = np.random.randint(5,10,size=(3, 4))
+x5
 ```
 
 ```
