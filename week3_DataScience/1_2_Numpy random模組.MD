@@ -21,6 +21,28 @@ x5
 3.randint(low,high,size)產生指定範圍的隨機數位於半開區間[low,high)，最後一個引數是元組，他確定陣列的形狀
 ```
 
+## 產生特殊形機率分布的樣本
+- [Binomial distribution]()
+- [範例說明](https://www.w3schools.com/python/numpy/numpy_random_binomial.asp)
+```python
+from numpy import random
+
+x = random.binomial(n=10, p=0.5, size=10)
+x2 = random.binomial(n=10, p=0.5, size=(2,3))
+print(x)
+```
+- 
+```python
+from numpy import random
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+sns.distplot(random.normal(loc=50, scale=5, size=1000), hist=False, label='normal')
+sns.distplot(random.binomial(n=100, p=0.5, size=1000), hist=False, label='binomial')
+
+plt.show()
+```
+
 ### (1)Simple random data
 ```
 rand(d0, d1, …, dn)	Random values in a given shape.
