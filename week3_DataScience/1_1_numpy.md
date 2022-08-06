@@ -150,11 +150,123 @@ arr
 (4)dtype
 ```
 - 更多範例 請參閱 [官方說明Array creation routines]([https://numpy.org/doc/stable/reference/ufuncs.html](https://numpy.org/doc/stable/reference/routines.array-creation.html))
+# 基本運算2:
+- 陣列變形 - reshape()、resize()
+- 將陣列展平為 1D 陣列 – flatten()/ravel()
+- 增加陣列的軸數 – np.newaxis
+- 轉置陣列transpose()
+- 陣列排序 – sort() 與 argsort()
+- 陣列合併 – vstack()、hstack()
+- 在陣列最後面加入元素 – append()
+- 條件搜尋
+  - 判斷陣列真假值 – all()、any()
+  - 找出符合條件的元素 – where()
+  - 取出最大值、最小值 – amax()、amin()
+  - 取出最大值、最小值的索引位置 – argmax()、argmin()
+  - 找出不是 0 的元素 – nonzero()
 
-## 2_ndarray的各種運算
+- 陣列的儲存與讀取 – save() 與 load()
+- 以文字格式儲存、讀取陣列內容 – savetxt() 與 loadtxt()
+
+### Array shape manipulation::reshape()
+
+```python
+import numpy as np
+
+# x = np.arange(2,10)
+x = np.arange(2,10).reshape(2,4)
+y = np.arange(2,10).reshape(4,2)
+x
+y
+#x.shape
+```
+### Array shape manipulation:Flattening(numpy.ravel()) and Transpose(numpy.T())
+
+```python
+import numpy as np
+ar=np.array([np.arange(1,6),np.arange(10,15)]); 
+ar
+ar.ravel()
+ar.T
+ar.T.ravel()
+```
+
+### 作業:下列答案為何? numpy.tile()
+- [numpy.tile](https://docs.scipy.org/doc/numpy/reference/generated/numpy.tile.html)
+
+```
+np.tile(np.array([[1,2],[6,7]]),3)
+np.tile(np.array([[1,2],[6,7]]),(2,2))
+```
+### 使用索引存取陣列 Array Indexing(索引)1: Accessing  Elements
+```python
+
+Import numpy as np
+x = np.arange(2,10)
+x
+```
+```
+x[0]=?
+x[-1]=?
+x[-2]=?
+```
+### 使用索引存取陣列 Array Indexing(索引)2: Accessing  Elements
+```python
+ar = np.array([[2,3,4],[9,8,7],[11,12,13]]); 
+ar
+```
+```python
+ar[1,2] =?
+ar[2,:] =?
+ar[:,1] =?
+ar[2,-1] =?
+```
+
+### Array slicing陣列的切片運算
+```
+ar=2*np.arange(6); 
+ar
+```
+```
+ar[1:5:2]=?
+ar[1:6:2]=?
+ar[:4]=?
+ar[4:] =?
+ar[::3]=?
+
+ar[:3]=1;
+ar
+ar[2:]=np.ones(4);
+ar
+```
+### 基本運算3:Reduction Operations與四則運算
+
+```python
+import numpy as np
+
+ar=np.arange(1,5)
+ar.prod()
+```
+```python
+import numpy as np
+ar=np.array([np.arange(1,6),np.arange(1,6)]);
+ar
+
+## 底下答案為何?
+np.prod(ar,axis=0)
+np.prod(ar,axis=1)
+```
+```python
+ar=np.array([[2,3,4],[5,6,7],[8,9,10]]); 
+ar.sum()
+ar.mean()
+np.median(ar)
+```
 
 
-
+### 更多函數 請參閱底下
+- [數學函數Mathematical functions](https://numpy.org/doc/stable/reference/routines.math.html) 
+- [Logic functions](https://numpy.org/doc/stable/reference/routines.logic.html)
 
 ### [基本運算4: ndarray的基本統計運算](https://numpy.org/doc/stable/reference/routines.statistics.html) ==> 進階統計功能請參閱python統計書籍
 - 計算元素平均值 – average() 與 mean()
@@ -192,9 +304,7 @@ arr
 - 計算卷積 – convolve()
 - 將連續值轉換為離散值 – digitize()
 
-### 更多函數 請參閱底下
-- [數學函數Mathematical functions](https://numpy.org/doc/stable/reference/routines.math.html) 
-- [Logic functions](https://numpy.org/doc/stable/reference/routines.logic.html)
+
 ## 3.特殊運算 ==> [陣列擴張|廣播 (Broadcasting)](https://numpy.org/doc/stable/user/basics.broadcasting.html)
 - https://jakevdp.github.io/PythonDataScienceHandbook/02.05-computation-on-arrays-broadcasting.html
 - General Broadcasting Rules
