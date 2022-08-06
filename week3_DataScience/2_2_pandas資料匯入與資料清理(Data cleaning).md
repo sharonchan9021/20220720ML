@@ -145,14 +145,28 @@ beatles = pd.DataFrame(people)
 import json
 encoded = json.dumps(people)
 encoded
+
 # 使用loads()載入 json檔 == > 回傳一個dict
 json.loads(encoded)
-# 
+
+# 使用read_json()讀取 json檔
 beatles = pd.read_json(encoded)
 beatles
+
+# 使用to_json()加上orient參數輸出不同格式的 json檔
+# orient參數 == > 設定不同輸出格式
+# orient='records'
+# orient='split'
+# 請驗證其資料讀取時仍會呈現相同結果
+
 records = beatles.to_json(orient='records')
 records
+pd.read_json(records,orient='records)
+
 ```
+- [pandas.read_json](https://pandas.pydata.org/docs/reference/api/pandas.read_json.html#pandas-read-json)
+- [pandas.DataFrame.to_json](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_json.html)
+
 ### 4_讀取網頁表格資料 
 - [pandas.read_html()](https://pandas.pydata.org/docs/reference/api/pandas.read_html.html)
   - [[Pandas教學]掌握Pandas DataFrame讀取網頁表格的實作技巧](https://www.learncodewithmike.com/2020/11/read-html-table-using-pandas.html)  
