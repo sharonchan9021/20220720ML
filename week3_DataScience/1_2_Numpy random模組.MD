@@ -33,7 +33,7 @@ x = random.binomial(n=10, p=0.5, size=10)
 x2 = random.binomial(n=10, p=0.5, size=(2,3))
 print(x)
 ```
-- 
+- 比較不同機率分布
 ```python
 from numpy import random
 import matplotlib.pyplot as plt
