@@ -1,7 +1,4 @@
-### pandas
-
-
-## 1_pandas Data Structures| pandas的資料結構 ==> series vs DataFrame
+## 1_pandas的資料結構(Data Structures) ==> series vs DataFrame
 
 
 ### 1_1_series的運算 see [CHAPTER 5 Getting Started with pandas](https://github.com/LearnXu/pydata-notebook/blob/master/Chapter-05/5.1%20Introduction%20to%20pandas%20Data%20Structures%EF%BC%88pandas%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%89.ipynb)
