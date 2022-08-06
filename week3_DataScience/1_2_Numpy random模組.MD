@@ -1,5 +1,5 @@
 ## [Numpy random模組](https://numpy.org/doc/1.16/reference/routines.random.html)
-- Numpy random模組有許多函數(如下),本課程僅交簡單與常用的
+- Numpy random模組有許多函數(如下)
 ```python
 import numpy as np
 np.random.seed(0) 
@@ -7,6 +7,15 @@ np.random.seed(0)
 x1 = np.random.randint(10, size=6) 
 x2 = np.random.randint(10, size=(3, 4)) 
 x3 = np.random.randint(10, size=(3, 4, 5))  
+```
+
+```
+1. rand(d0,d1,.....,dn)產生[0,1]的浮點隨機數,括號裡面的引數可以指定產生陣列的形狀
+   例如：np.random.rand(3,2)則產生 3×2的陣列，裡面的數是0～1的浮點隨機數
+ 
+2.randn(d0,d1,...,dn)產生標準正則分佈隨機數(N)，引數含義與rand相同
+ 
+3.randint(low,high,size)產生指定範圍的隨機數位於半開區間[low,high)，最後一個引數是元組，他確定陣列的形狀
 ```
 
 ### (1)Simple random data
