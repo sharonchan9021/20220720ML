@@ -1,5 +1,7 @@
 ## [Numpy random模組](https://numpy.org/doc/1.16/reference/routines.random.html)
 - Numpy random模組有許多函數(如下)
+
+## 產生亂數樣本
 ```python
 import numpy as np
 np.random.seed(0) 
@@ -21,7 +23,7 @@ x5
 3.randint(low,high,size)產生指定範圍的隨機數位於半開區間[low,high)，最後一個引數是元組，他確定陣列的形狀
 ```
 
-## 產生特殊形機率分布的樣本
+## 產生特殊機率分布的樣本
 - [Binomial distribution]()
 - [範例說明](https://www.w3schools.com/python/numpy/numpy_random_binomial.asp)
 ```python
