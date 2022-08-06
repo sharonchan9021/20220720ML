@@ -8,7 +8,6 @@
   - [GITHUB](https://github.com/PacktPublishing/Learning-Pandas-Second-Edition) 
   - [Ch9](https://github.com/PacktPublishing/Learning-Pandas-Second-Edition/blob/master/Chapter09/09_Accessing_Data.ipynb)
   - Chapter 9：存取資料
-  - 9.1 設定pandas
   - 9.2 處理CSV及文字/表格格式的資料
   - 9.3 讀寫Excel格式資料
   - 9.4 讀寫JSON檔案
@@ -203,8 +202,11 @@ aapl.to_sql("STOCK_DATA", connection, if_exists="append")
 # commit the SQL and close the connection
 connection.commit()
 connection.close()
+```
+- 連線到資料庫並執行SQL查詢
+```
 # connect to the database file
-connection = sqlite3.connect("data/stocks.sqlite")
+connection = sqlite3.connect("./stocks.sqlite")
 
 # query all records in STOCK_DATA
 # returns a DataFrame
