@@ -82,6 +82,7 @@ plt.plot(seq,d3,'-',marker='^')
 plt.plot(seq,d4,'-',marker='s') 
 plt.show()
 ```
+- [matplotlib.markers](https://matplotlib.org/stable/api/markers_api.html)
 
 ### 標題 | x 軸 | y 軸
 ```python
