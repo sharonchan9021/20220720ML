@@ -1,6 +1,7 @@
 # 推薦教科書
+- [Ensemble Machine Learning Cookbook(2019)Dipayan Sarkar , Vijayalakshmi Natarajan](https://www.packtpub.com/product/ensemble-machine-learning-cookbook/9781789136609)
 - [集成式學習：Python 實踐！整合全部技術，打造最強模型 George Kyriakides、Konstantinos G. Margaritis 著 張康寶 譯 旗標科技2022-02-09](https://www.tenlong.com.tw/products/9789863126942?list_name=srh)
-  - Hands-On Ensemble Learning with Python: Build highly optimized ensemble machine learning models using scikit-learn and Keras
+  - Hands-On Ensemble Learning with Python: Build highly optimized ensemble machine learning models using scikit-learn and Keras(2019)
   - [Github](https://github.com/PacktPublishing/Hands-On-Ensemble-Learning-with-Python)
 ```
 第一篇 機器學習基礎知識
