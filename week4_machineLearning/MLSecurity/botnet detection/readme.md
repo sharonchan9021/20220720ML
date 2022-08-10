@@ -5,7 +5,8 @@
 # Botnet
 - [【透視Emotet難以遏止的原因】全球最大Botnet起底，他們竟用敏捷開發來加速自我演化！(2021)](https://www.ithome.com.tw/news/143058)
 - [ITHOME_BOTNET](https://www.ithome.com.tw/tags/botnet)
-
+- [殭屍網路](https://zh.wikipedia.org/wiki/%E6%AE%AD%E5%B1%8D%E7%B6%B2%E7%B5%A1)
+- [Botnet](https://en.wikipedia.org/wiki/Botnet)
 #
 
 ```
