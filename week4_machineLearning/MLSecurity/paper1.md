@@ -5,6 +5,12 @@
 ## Data Set資料集
 - Malimg dataset (Nataraj et al., 2011) 
 
+#
+- To convert your malware codes to grayscale images, you can also use the Python script developed by Chiheb Chebbi, which is available at https://github.com/PacktPublishing/Mastering-Machine-Learning-for-Penetration-Testing/blob/master/Chapter04/MalwareConvert.py.
+
+# Keystroke Dynamics - Benchmark Data Set:
+https://www.cs.cmu.edu/~keystroke/DSL-StrongPasswordData.csv
+
 
 #
 ```
