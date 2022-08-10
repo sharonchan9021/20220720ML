@@ -2,6 +2,12 @@
 - 參考書:Hands-On Artificial Intelligence for Cybersecurity
 - [Network Anomaly Detection with AI](https://subscription.packtpub.com/book/data/9781789804027/7)
 
+# Botnet
+- [【透視Emotet難以遏止的原因】全球最大Botnet起底，他們竟用敏捷開發來加速自我演化！(2021)](https://www.ithome.com.tw/news/143058)
+- [ITHOME_BOTNET](https://www.ithome.com.tw/tags/botnet)
+
+#
+
 ```
 Network anomaly detection techniques
 How to classify network attacks
