@@ -1,6 +1,12 @@
 ## 推薦書籍
 - [Hands-On Machine Learning for Cybersecurity(2018)](https://www.packtpub.com/product/hands-on-machine-learning-for-cybersecurity/9781788992282)
-  - [簡體中譯本網絡安全之機器學習](https://www.tenlong.com.tw/products/9787111669418?list_name=srh)
+  - [(簡體中譯本)網絡安全之機器學習](https://www.tenlong.com.tw/products/9787111669418?list_name=srh)
+- [Hands-On Artificial Intelligence for Cybersecurity  Alessandro Parisi(2019)](https://www.packtpub.com/product/hands-on-artificial-intelligence-for-cybersecurity/9781789804027)
+  - [(簡體中譯本)人工智能在網絡安全中的應用 ](https://www.tenlong.com.tw/products/9787564191184?list_name=sp)
+
+### 網絡安全之機器學
+- [Hands-On Machine Learning for Cybersecurity(2018)](https://www.packtpub.com/product/hands-on-machine-learning-for-cybersecurity/9781788992282)
+  - [(簡體中譯本)網絡安全之機器學習](https://www.tenlong.com.tw/products/9787111669418?list_name=srh)
 ```
 第1章網絡安全中機器學習的基礎知識 1
 1.1 什麼是機器學習 1
@@ -163,4 +169,26 @@
 11.1.2 使用scikit-learn進行特徵提取214
 11.1.3 使用餘弦相似度量化弱密碼223
 11.1.4 組合226
+```
+## [Hands-On Artificial Intelligence for Cybersecurity  Alessandro Parisi(2019)](https://www.packtpub.com/product/hands-on-artificial-intelligence-for-cybersecurity/9781789804027)
+  - [(簡體中譯本)人工智能在網絡安全中的應用 ](https://www.tenlong.com.tw/products/9787564191184?list_name=sp)
+```
+Section 1: AI Core Concepts and Tools of the Trade
+Introduction to AI for Cybersecurity Professionals
+Setting Up Your AI for Cybersecurity Arsenal
+
+Section 2: Detecting Cybersecurity Threats with AI
+Ham or Spam? Detecting Email Cybersecurity Threats with AI
+Malware Threat Detection
+Network Anomaly Detection with AI
+
+Section 3: Protecting Sensitive Information and Assets
+Securing User Authentication
+Fraud Prevention with Cloud AI Solutions
+GANs - Attacks and Defenses
+
+
+Section 4: Evaluating and Testing Your AI Arsenal
+Evaluating Algorithms
+Assessing your AI Arsenal
 ```
