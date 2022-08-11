@@ -3,9 +3,15 @@
   - Hands-On Unsupervised Learning Using Python 
 - [Hands-On Unsupervised Learning with Python(2019) Giuseppe Bonaccorso](https://www.packtpub.com/product/hands-on-unsupervised-learning-with-python/9781789348279)
   - [GITHUB]()  
+# TOPICS
+- [Anomaly detection](https://subscription.packtpub.com/book/data/9781789348279/6/ch06lvl1sec51/probability-density-functions)
+  - [Anomaly detection with the KDD Cup 99 dataset](https://subscription.packtpub.com/book/data/9781789348279/6/ch06lvl1sec51/probability-density-functions) 
+    - 參考資料:Hands-On Unsupervised Learning with Python(2019)Giuseppe Bonaccorso CHAPTER 6.
 
 # dataset
 - Breast Cancer Wisconsin dataset
+
+
 # Unsupervised Learning 
 - CLUSTERING
   - Hard clustering VS SOFT clustering 
