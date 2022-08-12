@@ -1,6 +1,6 @@
 
 
-# Support Vector Machine practice notebook with breast cancer data set
+# Support Vector Machine Classification breast cancer data set
 
 
 ```PYTHON
