@@ -4,8 +4,11 @@
 - 林肯實驗室建立了模擬美國空軍局域網的一個網絡環境，收集了9周時間的 TCPdump網絡連接和系統審計數據，仿真各種用戶類型、各種不同的網絡流量和攻擊手段，使它就像一個真實的網絡環境。
 - 這些TCPdump採集的原始數據被分爲兩個部分：7周時間的訓練數據 大概包含5,000,000多個網絡連接記錄，剩下的2周時間的測試數據大概包含2,000,000個網絡連接記錄。
 
-- [KDD CUP 99數據集分析](https://www.twblogs.net/a/5c9e8158bd9eee7523887b96)
+- [參看參數說明KDD CUP 99數據集分析](https://www.twblogs.net/a/5c9e8158bd9eee7523887b96)
 - [sklearn.datasets.fetch_kddcup99](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_kddcup99.html#sklearn.datasets.fetch_kddcup99)
+- [KDD Cup 1999 analysis@Kaggle](https://www.kaggle.com/datasets/galaxyh/kdd-cup-1999-data/code)
+  - [研讀Anomaly Detection using KDD99 ](https://www.kaggle.com/code/tsenglung/anomaly-detection-using-kdd99/edit)
+
 
 
 ## 分析 [Evaluation of outlier detection estimators](https://scikit-learn.org/stable/auto_examples/miscellaneous/plot_outlier_detection_bench.html#sphx-glr-auto-examples-miscellaneous-plot-outlier-detection-bench-py)
