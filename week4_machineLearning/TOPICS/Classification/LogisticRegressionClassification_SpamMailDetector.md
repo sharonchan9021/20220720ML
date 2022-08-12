@@ -1,10 +1,11 @@
-# 
-Project 17. Spam Mail Prediction using Machine Learning.ipynb
+# LogisticRegressionClassification_SpamMailDetector
 
+- [資料來源Project 17. Spam Mail Prediction using Machine Learning](https://www.youtube.com/watch?v=rxkGItX5gGE)
+
+- [Machine Learning Projects 29 部影片](https://www.youtube.com/playlist?list=PLfFghEzKVmjvuSA67LszN1dZ-Dd_pkus6)
 
 ## 
 ```
-
 !wget https://raw.githubusercontent.com/8wingflying/20220720/main/week4_machineLearning/DATA/mail_data.csv
 ```
 ```python
