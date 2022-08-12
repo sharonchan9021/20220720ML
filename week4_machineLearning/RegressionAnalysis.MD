@@ -25,22 +25,21 @@
   - support vector machine (SVM) nonlinear regression
     - [Support Vector Machines for Classification and Regression, S. R. Gunn ..(1998)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.579.6867&rep=rep1&type=pdf)
     - [sklearn.svm.SVR](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html#sklearn.svm.SVR)
-         
-      - 原理解說
-      - 實作
-        - 使用PYTHON
-        - 使用scikit-learn
+
+# 教學主軸 
+- 原理解說
+- 實作
+  - 使用PYTHON
+  - 使用scikit-learn
+- 應用
 
 ## statsmodels@colab
+- [statsmodels](https://www.statsmodels.org/stable/index.html)
+  - statsmodels is a Python module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration. 
+- [statsmodels範例學習](https://www.statsmodels.org/stable/examples/index.html)
+- statsmodels@colab
 ```python
-%matplotlib inline
-import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
 import statsmodels
-import statsmodels.api as sm
-
-np.random.seed(9876789)
 statsmodels.__version__
 # 0.10.2
 ```
