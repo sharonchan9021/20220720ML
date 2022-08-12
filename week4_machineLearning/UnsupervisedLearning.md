@@ -2,8 +2,15 @@
 - [非監督式學習｜使用 Python Ankur A. Patel 著 盧建成 譯](https://www.tenlong.com.tw/products/9789865024062?list_name=srh)
   - Hands-On Unsupervised Learning Using Python()O'Reilly
   - [GITHUB](https://github.com/aapatel09/handson-unsupervised-learning)
+  - 推薦章節
+    - 第四部分 使用 TensorFlow 和 Keras 開發非監督式深度學習模型
+    - chapter 10　推薦系統使用受限波爾茲曼機
+    - chapter 11　使用深度信念網路（DBNs）進行特徵偵測
 - [Hands-On Unsupervised Learning with Python(2019) Giuseppe Bonaccorso](https://www.packtpub.com/product/hands-on-unsupervised-learning-with-python/9781789348279)
+  - [簡體中譯本: Python 無監督學習(2020)](https://www.tenlong.com.tw/products/9787115540720?list_name=srh)
   - [GITHUB(舊版)](https://github.com/packtpublishing/hands-on-unsupervised-learning-with-python)  
+
+
 # TOPICS
 - [Anomaly detection](https://subscription.packtpub.com/book/data/9781789348279/6/ch06lvl1sec51/probability-density-functions)
   - [Anomaly detection with the KDD Cup 99 dataset](https://subscription.packtpub.com/book/data/9781789348279/6/ch06lvl1sec51/probability-density-functions) 
@@ -61,4 +68,5 @@
 
 2.9. Neural network models (unsupervised)
      2.9.1. Restricted Boltzmann machines
+     SEE chapter 10　推薦系統使用受限波爾茲曼機
 ```
