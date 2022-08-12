@@ -2,6 +2,7 @@
 
 - [CICIDS2017](https://www.kaggle.com/datasets/cicdataset/cicids2017/code)
   - [Binary classification using SMOTE+LSTM](https://www.kaggle.com/code/rayalizing1/binary-classification-using-smote-lstm) 
+  - [CICIDS2017 - SafeML](https://www.kaggle.com/code/kooaslansefat/cicids2017-safeml)
 
 
 
