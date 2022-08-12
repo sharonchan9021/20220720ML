@@ -4,25 +4,27 @@
 - [Python Machine Learning: Machine Learning and Deep Learning with Python, scikit-learn, and TensorFlow, 3/e](https://www.packtpub.com/product/python-machine-learning-third-edition/9781789955750)
   - [github](https://github.com/rasbt/python-machine-learning-book-3rd-edition) 
   - [Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182?list_name=srh)
-    - 推薦章節
-      - 第10章：以迴歸分析預測連續目標變數
-        - Exploratory data analysis (EDA) 探索房屋數據集
-        - 使用RANdom SAmple Consensus (RANSAC)找出強固的迴歸模型
-        - 評估線性迴歸模型的效能
-          - from sklearn.metrics import r2_score 
-        - 使用正規化方法(regularized methods)做迴歸
-          - from sklearn.linear_model import Ridge
-          - from sklearn.linear_model import Lasso 
-        - 將線性迴歸模型轉成曲線－多項式迴歸polynomial regression
-          - from sklearn.preprocessing import PolynomialFeatures
-        - 更多Nonlinear regression非線性迴歸
-          - random forest nonlinear  regression使用隨機森林處理非線性關係
-            - from sklearn.ensemble import RandomForestRegressor 
-          - Decision tree regression
-            - from sklearn.tree import DecisionTreeRegressor
-          - support vector machine (SVM) nonlinear regression
-            - [Support Vector Machines for Classification and Regression, S. R. Gunn ..(1998)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.579.6867&rep=rep1&type=pdf)
-            - [sklearn.svm.SVR](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html#sklearn.svm.SVR)
+    - 推薦章節:第10章：以迴歸分析預測連續目標變數
+
+# 大綱
+- DATASET:  房價預測問題
+- Exploratory data analysis (EDA) 探索房屋數據集
+- 使用RANdom SAmple Consensus (RANSAC)找出強固的迴歸模型
+- 評估線性迴歸模型的效能
+  - from sklearn.metrics import r2_score 
+- 使用正規化方法(regularized methods)做迴歸
+  - from sklearn.linear_model import Ridge
+  - from sklearn.linear_model import Lasso 
+- 將線性迴歸模型轉成曲線－多項式迴歸polynomial regression
+  - from sklearn.preprocessing import PolynomialFeatures
+- 更多Nonlinear regression非線性迴歸
+  - random forest nonlinear  regression使用隨機森林處理非線性關係
+    - from sklearn.ensemble import RandomForestRegressor 
+  - Decision tree regression
+    - from sklearn.tree import DecisionTreeRegressor
+  - support vector machine (SVM) nonlinear regression
+    - [Support Vector Machines for Classification and Regression, S. R. Gunn ..(1998)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.579.6867&rep=rep1&type=pdf)
+    - [sklearn.svm.SVR](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html#sklearn.svm.SVR)
          
       - 原理解說
       - 實作
