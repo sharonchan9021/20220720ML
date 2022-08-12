@@ -1,6 +1,7 @@
 # [Intrusion Detection Dataset@Kaggle ](https://www.kaggle.com/search?q=Intrusion+Detection+in%3Adatasets)
 - [KDD Cup 1999](KDD Cup 1999)
   - [Anomaly Detection using KDD99](https://www.kaggle.com/code/prabhatsingh01/anomaly-detection-using-kdd99) 
+  - [Intrusion Detection System -accuracy(99.9%)](https://www.kaggle.com/code/samarshaikh/intrusion-detection-system-accuracy-99-9)
 - [Server Logs - Suspicious](https://www.kaggle.com/datasets/kartikjaspal/server-logs-suspicious)
   - [EDA and Classification for Beginners](https://www.kaggle.com/code/kartikjaspal/eda-and-classification-for-beginners) 
 - [CICIDS2017](https://www.kaggle.com/datasets/cicdataset/cicids2017/code)
