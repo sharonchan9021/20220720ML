@@ -1,6 +1,6 @@
 # Supervised learning
 
-# 1. [Supervised learning@scikit-learn 1.1.2](https://scikit-learn.org/stable/supervised_learning.html)
+# [Supervised learning@scikit-learn 1.1.2](https://scikit-learn.org/stable/supervised_learning.html)
 ```
 1.1. Linear Models
 1.2. Linear and Quadratic Discriminant Analysis
