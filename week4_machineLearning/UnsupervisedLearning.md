@@ -1,13 +1,14 @@
 ## 推薦書籍
-- [非監督式學習｜使用 Python Ankur A. Patel 著 盧建成 譯]()
-  - Hands-On Unsupervised Learning Using Python 
+- [非監督式學習｜使用 Python Ankur A. Patel 著 盧建成 譯](https://www.tenlong.com.tw/products/9789865024062?list_name=srh)
+  - Hands-On Unsupervised Learning Using Python()O'Reilly
+  - [GITHUB](https://github.com/aapatel09/handson-unsupervised-learning)
 - [Hands-On Unsupervised Learning with Python(2019) Giuseppe Bonaccorso](https://www.packtpub.com/product/hands-on-unsupervised-learning-with-python/9781789348279)
-  - [GITHUB]()  
+  - [GITHUB(舊版)](https://github.com/packtpublishing/hands-on-unsupervised-learning-with-python)  
 # TOPICS
 - [Anomaly detection](https://subscription.packtpub.com/book/data/9781789348279/6/ch06lvl1sec51/probability-density-functions)
   - [Anomaly detection with the KDD Cup 99 dataset](https://subscription.packtpub.com/book/data/9781789348279/6/ch06lvl1sec51/probability-density-functions) 
     - 參考資料:Hands-On Unsupervised Learning with Python(2019)Giuseppe Bonaccorso CHAPTER 6.
-
+  - credit card fraud
 # dataset
 - Breast Cancer Wisconsin dataset
 
