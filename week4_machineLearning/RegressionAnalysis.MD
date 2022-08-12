@@ -78,3 +78,4 @@ MEDV: Median value of owner-occupied homes in $1000s
 - [Boston House Prices Data Set Analysis and Visualization | Machine Learning Regression Model(2020)](https://www.youtube.com/watch?v=CGQTT-swK7U) 
   - [程式碼](https://github.com/Prianca25/Machine-Learning/blob/master/Boston%20Model%20Deployment.ipynb)  
 - [boston-housing-dataset分析@github](https://github.com/topics/boston-housing-dataset)
+- [boston-housing-dataset分析@paperswithcode](https://paperswithcode.com/dataset/the-boston-housing-dataset)
