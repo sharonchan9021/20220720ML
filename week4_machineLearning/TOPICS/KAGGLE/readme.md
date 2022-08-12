@@ -1,3 +1,18 @@
+# 機器學習演算法常用的資料集
+- 回歸
+  - [Boston housing dataset](https://www.kaggle.com/datasets/altavish/boston-housing-dataset/code)
+    - [EDA (Boston Housing )DATASET](https://www.kaggle.com/code/chaqsa/eda-boston-housing-dataset)  
+- 二元分類
+  - [Pima Indians Diabetes DatabasePima印地安人糖尿病預測模型](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) 
+  - [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data/code)
+- 多元分類
+  - [Iris Flower Dataset:Iris flower data set used for multi-class classification.](https://www.kaggle.com/datasets/arshid/iris-flower-dataset)
+    - [Iris Data Classification(All ML Algorithm)](https://www.kaggle.com/code/nitishdatascientist/iris-data-classification-all-ml-algorithm) 
+
+
+
+
+
 # [Intrusion Detection Dataset@Kaggle ](https://www.kaggle.com/search?q=Intrusion+Detection+in%3Adatasets)
 - [KDD Cup 1999](KDD Cup 1999)
   - [Anomaly Detection using KDD99](https://www.kaggle.com/code/prabhatsingh01/anomaly-detection-using-kdd99) 
