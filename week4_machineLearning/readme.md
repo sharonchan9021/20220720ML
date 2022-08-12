@@ -3,8 +3,13 @@
 - mechine learning
 - google colab
   - 將github範例檔案載入到Colab 
+- dataset
+  - Kaggle Dataset
+  -  
 - [資料預處理Data Preprocessing]
   - https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch04/ch04.ipynb
+- supervised learning:兩元分類 vs 多元分類
+  -  
 - 模型評估和參數調校Model Evaluation and Hyperparameter Tuning
   - see Python Machine Learning: Machine Learning and Deep Learning with Python, scikit-learn, and TensorFlow, 3/e
   - https://github.com/rasbt/python-machine-learning-book-3rd-edition/tree/master/ch06
@@ -15,3 +20,29 @@
     - 以網格搜尋微調機器學習模型
     - 其他不同的效能指標
     - 處理類別不平衡的狀況
+- supervised learning:迴歸分析
+  - see Python Machine Learning: Machine Learning and Deep Learning with Python, scikit-learn, and TensorFlow, 3/e
+  - https://github.com/rasbt/python-machine-learning-book-3rd-edition/tree/master/ch06
+  - Python 機器學習 (上), 3/e 第10章 以迴歸分析預測連續目標變數
+    - 探索房屋數據集
+    - 使用RANSAC找出強固的迴歸模型
+    - 評估線性迴歸模型的效能
+    - 使用正規化方法做迴歸
+    - 將線性迴歸模型轉成曲線－多項式迴歸
+    - 使用隨機森林處理非線性關係[next week]
+ - Ubsupervised learning:叢集分析
+   - 快速研讀 [scikit-learn 新手的晉級：實作各種機器學習解決方案 (Mastering Machine Learning with scikit-learn, 2/e)Gavin Hackeling](https://www.tenlong.com.tw/products/9789864344840)
+     - 第13章：K-MEANS演算法
+     - 分群
+     - K-MEANS演算法
+     - 評估集群:輪廓分數Silhouette score
+   - 進階研讀 Hands-On Unsupervised Learning with Python(2019) Giuseppe Bonaccorso 第 2章　聚類基礎知識
+     - 2.5　評估指標
+     - 2.5.1　最小化慣性
+     - 2.5.2　輪廓分數Silhouette score
+     - 2.5.3　完整性分數Completeness score    from sklearn.metrics import completeness_score
+     - 2.5.4　同質性分數Homogeneity score    from sklearn.metrics import homogeneity_score
+     - 2.5.5　調整後的相互信息分數Adjusted Mutual Information (AMI) score from sklearn.metrics import adjusted_mutual_info_score
+     - V-measure  from sklearn.metrics import v_measure_score
+     - 2.5.6　調整後的蘭德分數Adjusted Rand score from sklearn.metrics import adjusted_rand_score
+     - 2.5.7　列聯矩陣Contingency matrix   from sklearn.metrics.cluster import contingency_matrix
