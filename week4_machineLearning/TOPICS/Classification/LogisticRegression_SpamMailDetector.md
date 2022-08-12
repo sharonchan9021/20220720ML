@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# 
 Project 17. Spam Mail Prediction using Machine Learning.ipynb
 
 
@@ -8,6 +8,7 @@ Project 17. Spam Mail Prediction using Machine Learning.ipynb
 !wget https://raw.githubusercontent.com/8wingflying/20220720/main/week4_machineLearning/DATA/mail_data.csv
 ```
 ```python
+-*- coding: utf-8 -*-
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
