@@ -23,9 +23,14 @@
 - 小專案:波士頓房價預測模型
 ## 監督式機器學習演算法(2)分類演算法
 - 分類演算法
-- [k-nearest neighbors algorithm (k-NN) ](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
+  - [k-nearest neighbors algorithm (k-NN) ](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
 - 分類演算法效能評估指標
-- 小專案:Pima印地安人糖尿病預測模型
+- 專案應用:Pima印地安人糖尿病預測模型
+  - [Pima Indians Diabetes Database@Kaggle](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
+  - [Deep learning approach for diabetes prediction using PIMA Indian dataset(2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7270283/) 
+  - [Pima Indians Diabetes - Prediction & KNN Visualization](https://towardsdatascience.com/pima-indians-diabetes-prediction-knn-visualization-5527c154afff)
+
+
 ## 監督式機器學習演算法(3)決策樹演算法
 - 決策樹演算法
 - 決策樹演算法
