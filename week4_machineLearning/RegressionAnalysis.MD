@@ -33,7 +33,7 @@
   - 使用scikit-learn
 - 應用
 
-## statsmodels@colab
+## 進階研讀statsmodels
 - [statsmodels](https://www.statsmodels.org/stable/index.html)
   - statsmodels is a Python module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration. 
 - [statsmodels範例學習](https://www.statsmodels.org/stable/examples/index.html)
@@ -43,6 +43,8 @@ import statsmodels
 statsmodels.__version__
 # 0.10.2
 ```
+- [測試Ordinary Least Squares及各種變形](https://www.statsmodels.org/stable/examples/notebooks/generated/ols.html)
+
 ## DATASET:  房價預測問題
 - Boston House Prices
   - Harrison, D. and Rubinfeld, D.L. `Hedonic prices and the demand for clean air', J. Environ. Economics & Management, vol.5, 81-102, 1978. 
