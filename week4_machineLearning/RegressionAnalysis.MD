@@ -13,7 +13,10 @@
 使用正規化方法做迴歸
 將線性迴歸模型轉成曲線－多項式迴歸
 使用隨機森林處理非線性關係
-## DATASET
+## DATASET:  房價預測問題
+- Boston House Prices
+  - Harrison, D. and Rubinfeld, D.L. `Hedonic prices and the demand for clean air', J. Environ. Economics & Management, vol.5, 81-102, 1978. 
+- California housing dataset
 - [UC Irvine Machine Learning Repository(有612個資料集)](https://archive-beta.ics.uci.edu/)
 ```
 CRIM: Per capita crime rate by town
@@ -31,3 +34,6 @@ B: 1000(Bk – 0.63)2, where Bk is the proportion of [people of African American
 LSTAT: Percentage of lower status of the population
 MEDV: Median value of owner-occupied homes in $1000s
 ```
+
+## 分析
+- [What impacts Boston Housing Prices](https://medium.com/li-ting-liao-tiffany/python-%E5%BF%AB%E9%80%9F%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90-boston-housing%E6%B3%A2%E5%A3%AB%E9%A0%93%E6%88%BF%E5%83%B9-9c535fb7ceb7)
