@@ -1,9 +1,12 @@
-# -*- coding: utf-8 -*-
+
 
 # Support Vector Machine practice notebook with breast cancer data set
 
+
+```PYTHON
 ## Import libraries and load data
 # Commented out IPython magic to ensure Python compatibility.
+# -*- coding: utf-8 -*-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
