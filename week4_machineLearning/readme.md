@@ -19,16 +19,16 @@
   - see [scikit-learn 新手的晉級](https://www.tenlong.com.tw/products/9789864344840)第4章：特徵提取
     - 從`分類變數(categorical variable))`中提取特徵: ` one-of-k 編碼(one-of-k encoding) | 獨熱編碼(one-hot encoding)`
       -  https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition/blob/master/chapter04/ed2-ch4-s1.ipynb
-    - 特徵標準化: prepocessing 模組的scale 函數  
+    - 特徵標準化: prepocessing 模組的scale 函數 | StandardScaler | RobustScaler 
       - https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition/blob/master/chapter04/e2-ch4-s2.ipynb
-    - 從文本中提取特徵
-    - 從影像中提取特徵
+    - 從文本(text)中提取特徵: 「詞袋模型」(bag-of-words model) |「字嵌入」(word embedding) 文字如何向量化?  有用到再補充說明  
+      -  
 - supervised learning:兩元分類 vs 多元分類
   - KNN 分類
   - logistic regression(這是分類演算法)
-  - Decision Tree(決策數)
+  - Decision Tree(決策樹)
   - SVM(Support vector machines支援向量機)
-
+  - ensemble learning(下周上課主題)
 - 模型評估和參數調校Model Evaluation and Hyperparameter Tuning
   - see Python Machine Learning: Machine Learning and Deep Learning with Python, scikit-learn, and TensorFlow, 3/e
   - https://github.com/rasbt/python-machine-learning-book-3rd-edition/tree/master/ch06
@@ -42,7 +42,7 @@
 - supervised learning:迴歸分析
   - see Python Machine Learning: Machine Learning and Deep Learning with Python, scikit-learn, and TensorFlow, 3/e
   - https://github.com/rasbt/python-machine-learning-book-3rd-edition/tree/master/ch06
-  - Python 機器學習 (上), 3/e 第10章 以迴歸分析預測連續目標變數
+  - [Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) 第10章 以迴歸分析預測連續目標變數
     - 探索房屋數據集
     - 使用RANSAC找出強固的迴歸模型
     - 評估線性迴歸模型的效能
