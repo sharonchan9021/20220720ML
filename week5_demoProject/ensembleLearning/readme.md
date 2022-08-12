@@ -8,7 +8,7 @@
   - [Github](https://github.com/Apress/ensemble-learning-for-ai-developers) 
 - [深入理解 XGBoost：高效機器學習算法與進階(2019) 何龍　著 機械工業](https://www.tenlong.com.tw/products/9787111642626?list_name=srh)
 
-# 
+#  [集成式學習：Python 實踐 George Kyriakides、Konstantinos G. Margaritis 著 張康寶 譯 旗標2022-02-09](https://www.tenlong.com.tw/products/9789863126942?list_name=srh)
 ```
 第一篇 機器學習基礎知識
 
