@@ -6,7 +6,7 @@
   - [Deep learning approach for diabetes prediction using PIMA Indian dataset(2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7270283/) 
   - [Pima Indians Diabetes - Prediction & KNN Visualization](https://towardsdatascience.com/pima-indians-diabetes-prediction-knn-visualization-5527c154afff)
 - 專案應用(Nulti-class classification):IRIS
-
+- 專案應用(Nulti-class classification):路透社新聞分類
 
 ## DATASET :Pima印地安人糖尿病
 - [原始論文:Using the ADAP Learning Algorithm to Forecast the Onset of Diabetes Mellitus(1988)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2245318/)
