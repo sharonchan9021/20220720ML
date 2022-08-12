@@ -36,3 +36,5 @@
   - [EDA+Decision Tree Classification on different data](https://www.kaggle.com/code/jasleensondhi/eda-decision-tree-classification-on-different-data) 
 - svm
   - [Pima Indians Diabetes SVM](https://www.kaggle.com/code/baiazid/pima-indians-diabetes-svm/notebook) 
+- Random Forest
+  - [Diabetes Test with Random Forest](https://www.kaggle.com/code/abdallahhassan22/diabetes-test-with-random-forest) 
