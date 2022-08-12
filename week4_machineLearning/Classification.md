@@ -1,0 +1,26 @@
+- 分類演算法
+  - [k-nearest neighbors algorithm (k-NN) ](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
+- 分類演算法效能評估指標
+- 專案應用:Pima印地安人糖尿病預測模型
+  - [Deep learning approach for diabetes prediction using PIMA Indian dataset(2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7270283/) 
+  - [Pima Indians Diabetes - Prediction & KNN Visualization](https://towardsdatascience.com/pima-indians-diabetes-prediction-knn-visualization-5527c154afff)
+
+## DATASET :Pima印地安人糖尿病
+- [原始論文:Using the ADAP Learning Algorithm to Forecast the Onset of Diabetes Mellitus(1988)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2245318/)
+  - The National Institute of Diabetes Digestive and Kidney Diseases、The Johns Hopkins University School of Medicine共同發表
+  - Proc Annu Symp Comput Appl Med Care. 1988 Nov 9 : 261–265
+- [Pima Indians Diabetes Database@Kaggle](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)  
+- 768筆記錄
+- 9個欄位：8 特徵 + 1 target(答案)
+```
+1.	Number of times pregnant 懷孕次數
+2.	Plasma Glucose Concentration at 2 Hours in an Oral Tolerance Test (GTT) 口服葡萄糖耐受測試後2小時的血糖數據
+3.	Diastolic Blood pressure 血壓(舒張壓) mmHg
+4.	Triceps Skin Fold Thickness (mm) 肱三頭肌皮膚厚度
+5.	2-Hour Serum Insulin 2小時後血清胰島素數據
+6.	Body mass index BMI
+7.	Diabetes Pedigree Function族譜系數
+8.	Age (years)年齡
+```
+## 分析
+- EDA
