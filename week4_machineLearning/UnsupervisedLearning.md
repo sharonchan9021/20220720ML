@@ -39,5 +39,26 @@
 - PCA(Principle Component Analysis)
 - SOM(Self-organizing maps)
 - GAN(Generative Adversarial Networks)
-## CLUSTERING
-## Principle Component Analysis
+
+# [Unsupervised learning@@scikit-learn 1.1.2](https://scikit-learn.org/stable/unsupervised_learning.html)
+```
+2.1. Gaussian mixture models
+2.2. Manifold learning
+2.3. Clustering
+2.4. Biclustering
+2.5. Decomposing signals in components (matrix factorization problems)
+     2.5.1. Principal component analysis (PCA)
+     2.5.2. Kernel Principal Component Analysis (kPCA)
+     2.5.3. Truncated singular value decomposition and latent semantic analysis
+     2.5.4. Dictionary Learning
+     2.5.5. Factor Analysis
+     2.5.6. Independent component analysis (ICA)
+     2.5.7. Non-negative matrix factorization (NMF or NNMF)
+     2.5.8. Latent Dirichlet Allocation (LDA)
+2.6. Covariance estimation
+2.7. Novelty and Outlier Detection
+2.8. Density Estimation
+
+2.9. Neural network models (unsupervised)
+     2.9.1. Restricted Boltzmann machines
+```
