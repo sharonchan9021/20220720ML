@@ -18,7 +18,8 @@
     - from sklearn.svm import OneClassSVM
   - Isolation Forests(強大的演算法) 2008
     - [WIKI說明](https://en.wikipedia.org/wiki/Isolation_forest) 
-    - from sklearn.ensemble import IsolationForest
+    - [sklearn.ensemble.IsolationForest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html)
+      - from sklearn.ensemble import IsolationForest
     - 後續發展
       - SCiForest(2010) [正式論文](https://link.springer.com/chapter/10.1007/978-3-642-15883-4_18#Bib1)
       - Extended Isolation Forest (EIF)  2018 [arxiv](https://arxiv.org/abs/1811.02141) [正式論文](https://ieeexplore.ieee.org/document/8888179)
