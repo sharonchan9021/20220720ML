@@ -16,6 +16,9 @@
 ## DATASET:  房價預測問題
 - Boston House Prices
   - Harrison, D. and Rubinfeld, D.L. `Hedonic prices and the demand for clean air', J. Environ. Economics & Management, vol.5, 81-102, 1978. 
+  - http://lib.stat.cmu.edu/datasets/boston
+  - https://www.kaggle.com/datasets/vikrishnan/boston-house-prices
+  - [sklearn.datasets.load_boston](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html)
 - California housing dataset
 - [UC Irvine Machine Learning Repository(有612個資料集)](https://archive-beta.ics.uci.edu/)
 ```
