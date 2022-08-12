@@ -6,13 +6,21 @@
   - [Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182?list_name=srh)
     - 推薦章節
       - 第10章：以迴歸分析預測連續目標變數
-
-探索房屋數據集
-使用RANSAC找出強固的迴歸模型
-評估線性迴歸模型的效能
-使用正規化方法做迴歸
-將線性迴歸模型轉成曲線－多項式迴歸
-使用隨機森林處理非線性關係
+        - Exploratory data analysis (EDA) 探索房屋數據集
+        - 使用RANdom SAmple Consensus (RANSAC)找出強固的迴歸模型
+        - 評估線性迴歸模型的效能
+          - from sklearn.metrics import r2_score 
+        - 使用正規化方法(regularized methods)做迴歸
+          - from sklearn.linear_model import Ridge
+          - from sklearn.linear_model import Lasso 
+        - 將線性迴歸模型轉成曲線－多項式迴歸polynomial regression
+          - from sklearn.preprocessing import PolynomialFeatures 
+        - random forest regression使用隨機森林處理非線性關係
+        - Decision tree regression
+      - 原理解說
+      - 實作
+        - 使用PYTHON
+        - 使用 
 ## DATASET:  房價預測問題
 - Boston House Prices
   - Harrison, D. and Rubinfeld, D.L. `Hedonic prices and the demand for clean air', J. Environ. Economics & Management, vol.5, 81-102, 1978. 
