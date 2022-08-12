@@ -1,3 +1,4 @@
+## 教學主題
 - 分類演算法
   - [k-nearest neighbors algorithm (k-NN) ](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
 - 分類演算法效能評估指標
@@ -31,3 +32,7 @@
 
 ## 分析
 - EDA
+- Decision Tree Classification
+  - [EDA+Decision Tree Classification on different data](https://www.kaggle.com/code/jasleensondhi/eda-decision-tree-classification-on-different-data) 
+- svm
+  - [Pima Indians Diabetes SVM](https://www.kaggle.com/code/baiazid/pima-indians-diabetes-svm/notebook) 
