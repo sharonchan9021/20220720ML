@@ -14,10 +14,11 @@
   - Proc Annu Symp Comput Appl Med Care. 1988 Nov 9 : 261–265
 - [Pima Indians Diabetes Database@Kaggle](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)  
 
-- Pima印第安人(Phoenix, Arizona)是一批糖尿病高風險發病的族群，該族群居民自1965年起每隔兩年都會接受身體檢查。
+- Pima印第安人(Phoenix, Arizona)是一批糖尿病高風險發病的族群
+- 該族群居民自1965年起每隔兩年都會接受身體檢查。
 - 如果”口服葡萄糖耐受測試”(oral glucose tolerance test)後的2小時血糖數值，高於200 mg/dl 即視為糖尿病患者。
-- 768筆記錄
-- 9個欄位：8 特徵 + 1 target(答案)
+- 更有768筆記錄
+- 每筆紀錄有9個欄位：8 特徵(F) + 1 target(答案)
 ```
 1.Number of times pregnant 懷孕次數
 2.Plasma Glucose Concentration at 2 Hours in an Oral Tolerance Test (GTT) 口服葡萄糖耐受測試後2小時的血糖數據
