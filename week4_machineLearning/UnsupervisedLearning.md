@@ -6,6 +6,7 @@
 - [Hands-On Unsupervised Learning with Python(2019) Giuseppe Bonaccorso](https://www.packtpub.com/product/hands-on-unsupervised-learning-with-python/9781789348279)
   - [簡體中譯本: Python 無監督學習(2020)](https://www.tenlong.com.tw/products/9787115540720?list_name=srh)
   - [GITHUB(舊版)](https://github.com/packtpublishing/hands-on-unsupervised-learning-with-python)  
+  - [GITHUB](https://github.com/PacktPublishing/HandsOn-Unsupervised-Learning-with-Python)
   - 推薦章節: 第 2章　聚類基礎知識
     - 2.3　K-means　
     - 2.4　威斯康星州乳腺癌數據集分析　Breast Cancer Wisconsin dataset
