@@ -17,7 +17,7 @@
   - https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch04/ch04.ipynb
 - Feature Extraction特徵提取
   - see [scikit-learn 新手的晉級](https://www.tenlong.com.tw/products/9789864344840)第4章：特徵提取
-    - 從`分類變數(categorical variable))`中提取特徵:  one-of-k 編碼(one-of-k encoding) | 獨熱編碼(one-hot encoding)
+    - 從`分類變數(categorical variable))`中提取特徵: ` one-of-k 編碼(one-of-k encoding) | 獨熱編碼(one-hot encoding)`
       -  https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition/blob/master/chapter04/ed2-ch4-s1.ipynb
     - 特徵標準化: prepocessing 模組的scale 函數  
       - https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition/blob/master/chapter04/e2-ch4-s2.ipynb
