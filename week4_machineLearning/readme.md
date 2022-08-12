@@ -8,6 +8,8 @@
   - sklearn.datasets
 - 開發ML專案 
   - 純粹使用python [zotroneneis/machine_learning_basics](https://github.com/zotroneneis/machine_learning_basics) 
+    - 範例說明https://github.com/zotroneneis/machine_learning_basics/blob/master/kmeans.ipynb
+    - 範例說明https://github.com/zotroneneis/machine_learning_basics/blob/master/linear_regression.ipynb
   - 善用套件scikit-learn | Tensorflow | PyTorch | .....
 - [資料預處理Data Preprocessing]
   - https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch04/ch04.ipynb
