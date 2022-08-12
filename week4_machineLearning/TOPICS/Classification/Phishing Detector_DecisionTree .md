@@ -42,7 +42,7 @@ predictions = tree_classifier.predict(testing_samples)
 accuracy = 100.0 * accuracy_score(testing_targets, predictions)
 print ("Decision Tree accuracy: " + str(accuracy))
 ```
-## LogisticRegression Phishing Detecto
+## LogisticRegression Phishing Detector
 ```
 log_classifier = LogisticRegression()
 log_classifier.fit(training_samples, training_targets)
