@@ -72,3 +72,8 @@ MEDV: Median value of owner-occupied homes in $1000s
 
 ## 分析
 - [What impacts Boston Housing Prices](https://medium.com/li-ting-liao-tiffany/python-%E5%BF%AB%E9%80%9F%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90-boston-housing%E6%B3%A2%E5%A3%AB%E9%A0%93%E6%88%BF%E5%83%B9-9c535fb7ceb7)
+- [Boston House Price Dataset: Evaluating the performance RandomForest and OLS regression models(2021)](https://www.youtube.com/watch?v=LvsFtFkIoX4)
+  - https://sites.google.com/view/vinegarhill-datalabs/introduction-to-machine-learning/random-forest-and-ols
+  - https://www.youtube.com/watch?v=CfuZl-2vrsg
+- [Boston House Prices Data Set Analysis and Visualization | Machine Learning Regression Model(2020)](https://www.youtube.com/watch?v=CGQTT-swK7U) 
+  - [程式碼](https://github.com/Prianca25/Machine-Learning/blob/master/Boston%20Model%20Deployment.ipynb)  
