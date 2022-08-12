@@ -1,10 +1,12 @@
 ## 教學主題
 - 分類演算法
-  - [k-nearest neighbors algorithm (k-NN) ](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
+  - [k-nearest neighbors algorithm (k-NN)](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
 - 分類演算法效能評估指標
-- 專案應用:Pima印地安人糖尿病預測模型
+- 專案應用(Binary classification):Pima印地安人糖尿病預測模型
   - [Deep learning approach for diabetes prediction using PIMA Indian dataset(2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7270283/) 
   - [Pima Indians Diabetes - Prediction & KNN Visualization](https://towardsdatascience.com/pima-indians-diabetes-prediction-knn-visualization-5527c154afff)
+- 專案應用(Nulti-class classification):IRIS
+
 
 ## DATASET :Pima印地安人糖尿病
 - [原始論文:Using the ADAP Learning Algorithm to Forecast the Onset of Diabetes Mellitus(1988)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2245318/)
