@@ -7,7 +7,7 @@
 - [KDD CUP 99數據集分析](https://www.twblogs.net/a/5c9e8158bd9eee7523887b96)
 
 
-## 分析
+## 分析 [Evaluation of outlier detection estimators](https://scikit-learn.org/stable/auto_examples/miscellaneous/plot_outlier_detection_bench.html#sphx-glr-auto-examples-miscellaneous-plot-outlier-detection-bench-py)
 ```python
 """
 ==========================================
