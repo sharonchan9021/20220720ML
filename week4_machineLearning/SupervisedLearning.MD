@@ -1,5 +1,5 @@
 # 推薦書籍
-- [Python Machine Learning: Machine Learning and Deep Learning with Python, scikit-learn, and TensorFlow, 3/e]()
+- [Python Machine Learning: Machine Learning and Deep Learning with Python, scikit-learn, and TensorFlow, 3/e](https://www.packtpub.com/product/python-machine-learning-third-edition/9781789955750)
   - [github](https://github.com/rasbt/python-machine-learning-book-3rd-edition) 
   - [Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182?list_name=srh)
     - 推薦章節
