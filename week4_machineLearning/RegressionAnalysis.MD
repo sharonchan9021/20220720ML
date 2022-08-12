@@ -14,13 +14,34 @@
           - from sklearn.linear_model import Ridge
           - from sklearn.linear_model import Lasso 
         - 將線性迴歸模型轉成曲線－多項式迴歸polynomial regression
-          - from sklearn.preprocessing import PolynomialFeatures 
-        - random forest regression使用隨機森林處理非線性關係
-        - Decision tree regression
+          - from sklearn.preprocessing import PolynomialFeatures
+        - 更多Nonlinear regression非線性迴歸
+          - random forest nonlinear  regression使用隨機森林處理非線性關係
+            - from sklearn.ensemble import RandomForestRegressor 
+          - Decision tree regression
+            - from sklearn.tree import DecisionTreeRegressor
+          - support vector machine (SVM) nonlinear regression
+            - [Support Vector Machines for Classification and Regression, S. R. Gunn ..(1998)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.579.6867&rep=rep1&type=pdf)
+            - [sklearn.svm.SVR](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html#sklearn.svm.SVR)
+         
       - 原理解說
       - 實作
         - 使用PYTHON
-        - 使用 
+        - 使用scikit-learn
+
+## statsmodels@colab
+```python
+%matplotlib inline
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import statsmodels
+import statsmodels.api as sm
+
+np.random.seed(9876789)
+statsmodels.__version__
+# 0.10.2
+```
 ## DATASET:  房價預測問題
 - Boston House Prices
   - Harrison, D. and Rubinfeld, D.L. `Hedonic prices and the demand for clean air', J. Environ. Economics & Management, vol.5, 81-102, 1978. 
