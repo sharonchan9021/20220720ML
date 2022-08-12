@@ -8,8 +8,10 @@
   -  
 - [資料預處理Data Preprocessing]
   - https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch04/ch04.ipynb
+
 - supervised learning:兩元分類 vs 多元分類
   -  
+
 - 模型評估和參數調校Model Evaluation and Hyperparameter Tuning
   - see Python Machine Learning: Machine Learning and Deep Learning with Python, scikit-learn, and TensorFlow, 3/e
   - https://github.com/rasbt/python-machine-learning-book-3rd-edition/tree/master/ch06
