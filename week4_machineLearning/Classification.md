@@ -10,17 +10,24 @@
   - The National Institute of Diabetes Digestive and Kidney Diseases、The Johns Hopkins University School of Medicine共同發表
   - Proc Annu Symp Comput Appl Med Care. 1988 Nov 9 : 261–265
 - [Pima Indians Diabetes Database@Kaggle](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)  
+
+- Pima印第安人(Phoenix, Arizona)是一批糖尿病高風險發病的族群，該族群居民自1965年起每隔兩年都會接受身體檢查。
+- 如果”口服葡萄糖耐受測試”(oral glucose tolerance test)後的2小時血糖數值，高於200 mg/dl 即視為糖尿病患者。
 - 768筆記錄
 - 9個欄位：8 特徵 + 1 target(答案)
 ```
-1.	Number of times pregnant 懷孕次數
-2.	Plasma Glucose Concentration at 2 Hours in an Oral Tolerance Test (GTT) 口服葡萄糖耐受測試後2小時的血糖數據
-3.	Diastolic Blood pressure 血壓(舒張壓) mmHg
-4.	Triceps Skin Fold Thickness (mm) 肱三頭肌皮膚厚度
-5.	2-Hour Serum Insulin 2小時後血清胰島素數據
-6.	Body mass index BMI
-7.	Diabetes Pedigree Function族譜系數
-8.	Age (years)年齡
+1.Number of times pregnant 懷孕次數
+2.Plasma Glucose Concentration at 2 Hours in an Oral Tolerance Test (GTT) 口服葡萄糖耐受測試後2小時的血糖數據
+3.Diastolic Blood pressure 血壓(舒張壓) mmHg
+4.Triceps Skin Fold Thickness (mm) 肱三頭肌皮膚厚度
+5.2-Hour Serum Insulin 2小時後血清胰島素數據
+6.Body mass index BMI
+7.Diabetes Pedigree Function族譜系數
+8.Age (years)年齡
 ```
+- [7.Diabetes Pedigree Function族譜系數 請參看說明](https://ithelp.ithome.com.tw/m/articles/10263714)
+  - [程式碼](https://github.com/neoCaffe/SkLearnPractice) 
+
+
 ## 分析
 - EDA
