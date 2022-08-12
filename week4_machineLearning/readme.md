@@ -15,7 +15,7 @@
 - supervised learning:兩元分類 vs 多元分類
   - KNN 分類
   - Decision Tree
-  -  
+  - SVM
 
 - 模型評估和參數調校Model Evaluation and Hyperparameter Tuning
   - see Python Machine Learning: Machine Learning and Deep Learning with Python, scikit-learn, and TensorFlow, 3/e
