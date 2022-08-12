@@ -1,6 +1,6 @@
 ## 推薦書籍
 - [非監督式學習｜使用 Python Ankur A. Patel 著 盧建成 譯](https://www.tenlong.com.tw/products/9789865024062?list_name=srh)
-  - Hands-On Unsupervised Learning Using Python()O'Reilly
+  - [Hands-On Unsupervised Learning Using Python(2019)O'Reilly](https://www.oreilly.com/library/view/hands-on-unsupervised-learning/9781492035633/)
   - [GITHUB](https://github.com/aapatel09/handson-unsupervised-learning)
   - 推薦章節
     - 第四部分 使用 TensorFlow 和 Keras 開發非監督式深度學習模型
