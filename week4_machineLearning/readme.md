@@ -5,6 +5,7 @@
   - 將github範例檔案載入到Colab 
 - dataset
   - Kaggle Dataset
+    - https://www.kaggle.com/code/anjasing/pima-diabetes-prediction 
   - sklearn.datasets
 - 開發ML專案 
   - 純粹使用python [zotroneneis/machine_learning_basics](https://github.com/zotroneneis/machine_learning_basics) 
