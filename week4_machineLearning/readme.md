@@ -31,6 +31,12 @@
       -  https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition/blob/master/chapter04/ed2-ch4-s1.ipynb
     - 特徵標準化: prepocessing 模組的scale 函數 | StandardScaler | RobustScaler 
       - https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition/blob/master/chapter04/e2-ch4-s2.ipynb
+      - StandardScaler (平均值和標準差)
+      - MinMaxScaler(最小最大值標準化)
+      - MaxAbsScaler（絕對值最大標準化）
+      - RobustScaler
+      - https://ithelp.ithome.com.tw/articles/10240494
+      - [【特徵工程】嘔心之作——深度瞭解特徵工程](https://www.796t.com/content/1542164169.html)
     - 從文本(text)中提取特徵: 「詞袋模型」(bag-of-words model) |「字嵌入」(word embedding) 文字如何向量化?  有用到再補充說明  
     - 從影像(image)中提取特徵: 深度學習會教
 - supervised learning:兩元分類 vs 多元分類
