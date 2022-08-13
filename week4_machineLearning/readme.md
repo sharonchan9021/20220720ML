@@ -10,8 +10,8 @@
   - 純粹使用python [zotroneneis/machine_learning_basics](https://github.com/zotroneneis/machine_learning_basics) 
     - 範例說明https://github.com/zotroneneis/machine_learning_basics/blob/master/kmeans.ipynb
     - 範例說明https://github.com/zotroneneis/machine_learning_basics/blob/master/linear_regression.ipynb
-    - 範例說明[Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) 第2章 感知器分類器
-    - 範例說明[Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) 第2章 adaline分類器
+    - 範例說明[Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) [第2章 感知器分類器](https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch02/ch02.py)
+    - 範例說明[Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) [第2章 adaline分類器](https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch02/ch02.py)
   - 善用套件scikit-learn | Tensorflow | PyTorch | .....
 - [資料預處理Data Preprocessing]
   - https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch04/ch04.ipynb
