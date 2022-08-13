@@ -1,7 +1,7 @@
 # 上課內容
 
 - mechine learning
-- google colab
+- google colab基本技巧
   - 將github範例檔案載入到Colab 
   - 下載資料集到colab
     - https://github.com/JerryKurata/MachineLearningWithPython/blob/master/Notebooks/data/pima-data.csv
