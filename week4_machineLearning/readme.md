@@ -14,29 +14,33 @@
     - https://scikit-learn.org/stable/modules/classes.html#module-sklearn.datasets 
 - 開發ML專案 
   - 純粹使用python [zotroneneis/machine_learning_basics](https://github.com/zotroneneis/machine_learning_basics) 
-    - 範例說明https://github.com/zotroneneis/machine_learning_basics/blob/master/kmeans.ipynb
-    - 範例說明https://github.com/zotroneneis/machine_learning_basics/blob/master/linear_regression.ipynb
-    - 範例說明[Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) [第2章 感知器分類器](https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch02/ch02.py)
-    - 範例說明[Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) [第2章 adaline分類器](https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch02/ch02.py)
+    - `上課說明`https://github.com/zotroneneis/machine_learning_basics/blob/master/linear_regression.ipynb
+    - 範例練習https://github.com/zotroneneis/machine_learning_basics/blob/master/kmeans.ipynb
+    - 範例練習[Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) [第2章 感知器分類器](https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch02/ch02.py)
+    - 範例練習[Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) [第2章 adaline分類器](https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch02/ch02.py)
   - 善用套件scikit-learn | Tensorflow | PyTorch | .....
 - [資料預處理Data Preprocessing]
   - 處理數據遺漏(missing value)
-    -  使用isnull 方法，檢査DataFrame 是否有「遺漏值」
-    -  使用dropna 方法，刪除具有遺漏值的樣本或特黴
-    -  使用Scikit-learn 的Imputer 類別進行填補遺漏值 ==> 平均插補(mean imputation)
-  - [Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) [第4章 資料預處理](https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch04/ch04.ipynb)
+    - 使用isnull 方法，檢査DataFrame 是否有「遺漏值」
+    - 使用dropna 方法，刪除具有遺漏值的樣本或特黴
+    - 使用Scikit-learn 的Imputer 類別進行填補遺漏值 ==> 平均插補(mean imputation)
+      - [sklearn.impute.SimpleImputer](https://scikit-learn.org/stable/modules/generated/sklearn.impute.SimpleImputer.html)  
+  - 範例說明[Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) [第4章 資料預處理](https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch04/ch04.ipynb)
 - Feature Extraction特徵提取
   - see [scikit-learn 新手的晉級](https://www.tenlong.com.tw/products/9789864344840)第4章：特徵提取
     - 從`分類變數(categorical variable))`中提取特徵: ` one-of-k 編碼(one-of-k encoding) | 獨熱編碼(one-hot encoding)`
       -  https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition/blob/master/chapter04/ed2-ch4-s1.ipynb
-    - 特徵標準化: prepocessing 模組的scale 函數 | StandardScaler | RobustScaler 
-      - https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition/blob/master/chapter04/e2-ch4-s2.ipynb
-      - StandardScaler (平均值和標準差)
-      - MinMaxScaler(最小最大值標準化)
-      - MaxAbsScaler（絕對值最大標準化）
-      - RobustScaler
-      - https://ithelp.ithome.com.tw/articles/10240494
-      - [【特徵工程】嘔心之作——深度瞭解特徵工程](https://www.796t.com/content/1542164169.html)
+    - 特徵標準化: prepocessing 模組的scale 函數 | StandardScaler | RobustScaler  [sklearn.preprocessing]()
+      - [sklearn.preprocessing.scale](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.scale.html)
+        - https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition/blob/master/chapter04/e2-ch4-s2.ipynb
+      - [StandardScaler (平均值和標準差)sklearn.preprocessing.StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)
+      - [MinMaxScaler(最小最大值標準化)sklearn.preprocessing.MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html)
+      - [MaxAbsScaler（絕對值最大標準化）sklearn.preprocessing.MaxAbsScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MaxAbsScaler.html)
+      - [RobustScaler|sklearn.preprocessing.RobustScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html)
+      - 解說
+        - https://ithelp.ithome.com.tw/articles/10240494
+        - [【特徵工程】嘔心之作——深度瞭解特徵工程](https://www.796t.com/content/1542164169.html)
+        - [Scikit-learn Preprocessing 预处理](https://blog.csdn.net/Dream_angel_Z/article/details/49406573)
     - 從文本(text)中提取特徵: 「詞袋模型」(bag-of-words model) |「字嵌入」(word embedding) 文字如何向量化?  有用到再補充說明  
     - 從影像(image)中提取特徵: 深度學習會教
 - supervised learning:兩元分類 vs 多元分類
