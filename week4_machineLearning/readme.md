@@ -22,27 +22,41 @@
     - 特徵標準化: prepocessing 模組的scale 函數 | StandardScaler | RobustScaler 
       - https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition/blob/master/chapter04/e2-ch4-s2.ipynb
     - 從文本(text)中提取特徵: 「詞袋模型」(bag-of-words model) |「字嵌入」(word embedding) 文字如何向量化?  有用到再補充說明  
-      -  
+    - 從影像(image)中提取特徵: 深度學習會教
 - supervised learning:兩元分類 vs 多元分類
-  - KNN 分類
-  - logistic regression(這是分類演算法)
-  - Decision Tree(決策樹)
-  - SVM(Support vector machines支援向量機)
-  - ensemble learning(下周上課主題)
+  - 分類演算法
+    - k-nearest neighbors algorithm (k-NN)分類
+    - logistic regression(這是分類演算法)
+    - Decision Tree(決策樹)
+    - SVM(Support vector machines支援向量機)
+    - ensemble learning(下周上課主題)
+  - 分類演算法評估指標
+    - 兩元分類評估指標:準確率(accuracy) |精準率(precision) | 召回率(recall) | Fl 分數／ Fl 度量(F1 measure) | ROC AUC 分數
+    - 多元分類 評估指標:
+      - https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition/blob/master/chapter06/ed2-ch6-s4.ipynb
+  - 應用
+    - Binary classification兩元分類
+      - Pima印地安人糖尿病預測模型
+      - Breast Cancer Wisconsin (Diagnostic) Data Set
+      - 垃圾郵件過濾(spam filtering) see [scikit-learn 新手的晉級](https://www.tenlong.com.tw/products/9789864344840) [第6章]
+        - https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition/blob/master/chapter06/ed2-ch6-s0.ipynb
+        - https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition/blob/master/chapter06/ed2-ch6-s1.ipynb 
+    - multi-label classification)多元分類
+      - IRIS
+      - 路透社新聞分類
+
 - 模型評估和參數調校Model Evaluation and Hyperparameter Tuning
   - see Python Machine Learning: Machine Learning and Deep Learning with Python, scikit-learn, and TensorFlow, 3/e
-  - https://github.com/rasbt/python-machine-learning-book-3rd-edition/tree/master/ch06
-  - Python 機器學習 (上), 3/e 第6章
+  - [Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) [第6章](https://github.com/rasbt/python-machine-learning-book-3rd-edition/tree/master/ch06)
     - 以管線來簡化工作流程
     - 使用k折交叉驗證法來評估模型效能
     - 使用學習曲線和驗證曲線來對演算法除錯
-    - 以網格搜尋微調機器學習模型
+    - 以`網格搜尋(grid search)`微調機器學習模型
     - 其他不同的效能指標
     - 處理類別不平衡的狀況
 - supervised learning:迴歸分析
   - see Python Machine Learning: Machine Learning and Deep Learning with Python, scikit-learn, and TensorFlow, 3/e
-  - https://github.com/rasbt/python-machine-learning-book-3rd-edition/tree/master/ch06
-  - [Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) 第10章 以迴歸分析預測連續目標變數
+  - [Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) [第10章 以迴歸分析預測連續目標變數](https://github.com/rasbt/python-machine-learning-book-3rd-edition/tree/master/ch10)
     - 探索房屋數據集
     - 使用RANSAC找出強固的迴歸模型
     - 評估線性迴歸模型的效能
