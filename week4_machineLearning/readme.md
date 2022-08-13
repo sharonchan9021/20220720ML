@@ -13,12 +13,14 @@
   - sklearn.datasets
     - https://scikit-learn.org/stable/modules/classes.html#module-sklearn.datasets 
 - 開發ML專案 
+  - 善用套件scikit-learn | Tensorflow | PyTorch | .....
+    - `上課說明`[Day13-Scikit-learn介紹(5)_ Linear-Regression](https://ithelp.ithome.com.tw/articles/10206114)
+    - [sklearn.linear_model.LinearRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
   - 純粹使用python [zotroneneis/machine_learning_basics](https://github.com/zotroneneis/machine_learning_basics) 
     - `上課說明`https://github.com/zotroneneis/machine_learning_basics/blob/master/linear_regression.ipynb
     - 範例練習https://github.com/zotroneneis/machine_learning_basics/blob/master/kmeans.ipynb
     - 範例練習[Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) [第2章 感知器分類器](https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch02/ch02.py)
     - 範例練習[Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) [第2章 adaline分類器](https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch02/ch02.py)
-  - 善用套件scikit-learn | Tensorflow | PyTorch | .....
 - [資料預處理Data Preprocessing]
   - 處理數據遺漏(missing value)
     - 使用isnull 方法，檢査DataFrame 是否有「遺漏值」
