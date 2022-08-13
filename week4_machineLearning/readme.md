@@ -11,6 +11,7 @@
   - Kaggle Dataset
     - https://www.kaggle.com/code/anjasing/pima-diabetes-prediction 
   - sklearn.datasets
+    - https://scikit-learn.org/stable/modules/classes.html#module-sklearn.datasets 
 - 開發ML專案 
   - 純粹使用python [zotroneneis/machine_learning_basics](https://github.com/zotroneneis/machine_learning_basics) 
     - 範例說明https://github.com/zotroneneis/machine_learning_basics/blob/master/kmeans.ipynb
