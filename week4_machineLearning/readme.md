@@ -32,7 +32,7 @@
     - ensemble learning(下周上課主題)
   - 分類演算法評估指標
     - 兩元分類評估指標:準確率(accuracy) |精準率(precision) | 召回率(recall) | Fl 分數／ Fl 度量(F1 measure) | ROC AUC 分數
-    - 多元分類 評估指標:
+    - 多元分類 評估指標:Hamming loss （漢明損失）| Jaccard similarity（傑卡德相似係數）
       - https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition/blob/master/chapter06/ed2-ch6-s4.ipynb
   - 應用
     - Binary classification兩元分類
