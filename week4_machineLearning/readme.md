@@ -7,7 +7,6 @@
     - https://github.com/JerryKurata/MachineLearningWithPython/blob/master/Notebooks/data/pima-data.csv
     - !wget https://raw.githubusercontent.com/JerryKurata/MachineLearningWithPython/master/Notebooks/data/pima-data.csv
   - 從Google Drive執行XX.ipynb 
-    - 
 - dataset
   - Kaggle Dataset
     - https://www.kaggle.com/code/anjasing/pima-diabetes-prediction 
