@@ -14,6 +14,10 @@
     - 範例說明[Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) [第2章 adaline分類器](https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch02/ch02.py)
   - 善用套件scikit-learn | Tensorflow | PyTorch | .....
 - [資料預處理Data Preprocessing]
+  - 處理數據遺漏(missing value)
+    -  使用isnull 方法，檢査DataFrame 是否有「遺漏值」
+    -  使用dropna 方法，刪除具有遺漏值的樣本或特黴
+    -  使用Scikit-learn 的Imputer 類別進行填補遺漏值 ==> 平均插補(mean imputation)
   - [Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) [第4章 資料預處理](https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch04/ch04.ipynb)
 - Feature Extraction特徵提取
   - see [scikit-learn 新手的晉級](https://www.tenlong.com.tw/products/9789864344840)第4章：特徵提取
