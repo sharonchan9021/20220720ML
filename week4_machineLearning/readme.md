@@ -2,12 +2,12 @@
 
 - mechine learning
 - google colab基本技巧
-  - 將github範例檔案載入到Colab 
+  - 將github範例檔案載入到Colab == > 執行XXX.py
   - 下載資料集到colab
     - https://github.com/JerryKurata/MachineLearningWithPython/blob/master/Notebooks/data/pima-data.csv
     - !wget https://raw.githubusercontent.com/JerryKurata/MachineLearningWithPython/master/Notebooks/data/pima-data.csv
-  - 從Google Drive執行 
-    - https://github.com/PacktPublishing/Hands-On-Artificial-Intelligence-for-Cybersecurity
+  - 從Google Drive執行XX.ipynb 
+    - 
 - dataset
   - Kaggle Dataset
     - https://www.kaggle.com/code/anjasing/pima-diabetes-prediction 
