@@ -37,6 +37,10 @@
   - 分類演算法評估指標
     - 兩元分類評估指標:準確率(accuracy) |精準率(precision) | 召回率(recall) | Fl 分數／ Fl 度量(F1 measure) | ROC AUC 分數
     - 多元分類 評估指標:Hamming loss （漢明損失）| Jaccard similarity（傑卡德相似係數）
+      - Hamming loss 是不正確標籤的平均比例
+        - Hamming loss是一種損失函數，其完美得分是0 
+      - Jaccard similarity |Jaccard index 是預測標籤和真實標籤「交集」(intersection) 的數量除以預測標籤和真實標籤「聯集」(union) 的數量
+        - 取值範圍是0 到1, 1 是完美得分 
       - https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition/blob/master/chapter06/ed2-ch6-s4.ipynb
   - 應用
     - Binary classification兩元分類
