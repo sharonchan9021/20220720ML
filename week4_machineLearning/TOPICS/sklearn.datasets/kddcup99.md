@@ -5,6 +5,8 @@
 - 這些TCPdump採集的原始數據被分爲兩個部分：7周時間的訓練數據 大概包含5,000,000多個網絡連接記錄，剩下的2周時間的測試數據大概包含2,000,000個網絡連接記錄。
 
 - [參看參數說明KDD CUP 99數據集分析](https://www.twblogs.net/a/5c9e8158bd9eee7523887b96)
+- [入侵检测之KDDCUP99数据集分析](https://blog.csdn.net/qq_38384924/article/details/97128744)
+- [A detailed analysis of the KDD CUP 99 data set](https://ieeexplore.ieee.org/document/5356528)
 - [sklearn.datasets.fetch_kddcup99](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_kddcup99.html#sklearn.datasets.fetch_kddcup99)
 - [KDD Cup 1999 analysis@Kaggle](https://www.kaggle.com/datasets/galaxyh/kdd-cup-1999-data/code)
   - [研讀Anomaly Detection using KDD99 ](https://www.kaggle.com/code/tsenglung/anomaly-detection-using-kdd99/edit)
