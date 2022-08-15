@@ -3,6 +3,12 @@
 - [集成式學習：Python 實踐！整合全部技術，打造最強模型 George Kyriakides、Konstantinos G. Margaritis 著 張康寶 譯 旗標2022-02-09](https://www.tenlong.com.tw/products/9789863126942?list_name=srh)
   - Hands-On Ensemble Learning with Python: Build highly optimized ensemble machine learning models using scikit-learn and Keras(2019)
   - [Github](https://github.com/PacktPublishing/Hands-On-Ensemble-Learning-with-Python)
+- [Ensemble Learning for AI Developers: Learn Bagging, Stacking, and Boosting Methods with Use Cases(2020)Kumar, Alok,Jain, Mayank](https://link.springer.com/book/10.1007/978-1-4842-5940-5)
+  - [簡體中譯本: 集成學習入門與實戰：原理、算法與應用 Alok Kumar，Mayank Jain 吳健鵬](https://www.tenlong.com.tw/products/9787122401670?list_name=srh) 
+  - [Github](https://github.com/Apress/ensemble-learning-for-ai-developers) 
+- [深入理解 XGBoost：高效機器學習算法與進階(2019) 何龍　著 機械工業](https://www.tenlong.com.tw/products/9787111642626?list_name=srh)
+
+#  [集成式學習：Python 實踐 旗標2022-02-09](https://www.tenlong.com.tw/products/9789863126942?list_name=srh)
 ```
 第一篇 機器學習基礎知識
 
@@ -17,7 +23,6 @@
 2.1 何謂偏誤與變異
 2.2 評估偏誤與變異
 2.3 集成式學習（Ensemble Learning）
-
 
 第二篇 非生成式演算法
 

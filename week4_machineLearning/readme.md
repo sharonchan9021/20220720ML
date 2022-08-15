@@ -1,38 +1,107 @@
-## 機器學習演算法分析與應用報告
-- 機器學習MACHINE LEARNING 
-- 機器學習類型與常見演算法
-- 機器學習開發環境
-- 機器學習演算法實戰與應用
-  - 監督式機器學習演算法(1)回歸演算法
-  - 監督式機器學習演算法(2)分類演算法
-  - 監督式機器學習演算法(3)決策樹演算法
-  - 非監督式機器學習演算法:叢集演算法
+# 上課內容
 
-# 機器學習演算法實戰與應用
-## 監督式機器學習演算法(1)回歸演算法
-- [回歸演算法Regression analysis](https://en.wikipedia.org/wiki/Regression_analysis)
-- [Least Squares Method最小平方法](https://en.wikipedia.org/wiki/Least_squares)
-- 線性回歸演算法
-- [小小練習: matplotlib.pyplot!](機器學習類型: https://matplotlib.org/3.5.0/api/_as_gen/matplotlib.pyplot.html)
-- [小專案1:pizza定價模型](https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition/tree/master/chapter02)
-  - 關鍵程式碼1: from sklearn.linear_model import LinearRegression  選擇你要使用的模型
-  - 關鍵程式碼2: model = LinearRegression()
-  - 關鍵程式碼3: model.fit(X, y) 建立模型
-  - 關鍵程式碼4:test_pizza = np.array([[200]]) 建立要預測的資料
-    - predicted_price = model.predict(test_pizza)[0]  進行預測
-- 小專案:波士頓房價預測模型
-## 監督式機器學習演算法(2)分類演算法
-- 分類演算法
-- [k-nearest neighbors algorithm (k-NN) ](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
-- 分類演算法效能評估指標
-- 小專案:Pima印地安人糖尿病預測模型
-## 監督式機器學習演算法(3)決策樹演算法
-- 決策樹演算法
-- 決策樹演算法
-- 精進決策樹演算法 == >
-- 小專案:鐵達尼號倖存者預測模型
-## 非監督式機器學習演算法:叢集演算法
-- 叢集演算法
-- 叢集演算法實戰範例
-- 叢集演算法效能評估指標:silhouette coefficient(輪廓係數)
+- mechine learning
+- google colab基本技巧
+  - 將github範例檔案載入到Colab == > 執行XXX.py
+  - 下載資料集到colab
+    - https://github.com/JerryKurata/MachineLearningWithPython/blob/master/Notebooks/data/pima-data.csv
+    - !wget https://raw.githubusercontent.com/JerryKurata/MachineLearningWithPython/master/Notebooks/data/pima-data.csv
+  - 從Google Drive執行XX.ipynb 
+- dataset
+  - Kaggle Dataset
+    - https://www.kaggle.com/code/anjasing/pima-diabetes-prediction 
+  - sklearn.datasets
+    - https://scikit-learn.org/stable/modules/classes.html#module-sklearn.datasets 
+- 開發ML專案 
+  - 善用套件scikit-learn | Tensorflow | PyTorch | .....
+    - `上課說明`[Day13-Scikit-learn介紹(5)_ Linear-Regression](https://ithelp.ithome.com.tw/articles/10206114)
+    - [sklearn.linear_model.LinearRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
+  - 純粹使用python [zotroneneis/machine_learning_basics](https://github.com/zotroneneis/machine_learning_basics) 
+    - `上課說明`https://github.com/zotroneneis/machine_learning_basics/blob/master/linear_regression.ipynb
+    - 範例練習https://github.com/zotroneneis/machine_learning_basics/blob/master/kmeans.ipynb
+    - 範例練習[Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) [第2章 感知器分類器](https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch02/ch02.py)
+    - 範例練習[Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) [第2章 adaline分類器](https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch02/ch02.py)
+- [資料預處理Data Preprocessing]
+  - 處理數據遺漏(missing value)
+    - 使用isnull 方法，檢査DataFrame 是否有「遺漏值」
+    - 使用dropna 方法，刪除具有遺漏值的樣本或特黴
+    - 使用Scikit-learn 的Imputer 類別進行填補遺漏值 ==> 平均插補(mean imputation)
+      - [sklearn.impute.SimpleImputer](https://scikit-learn.org/stable/modules/generated/sklearn.impute.SimpleImputer.html)  
+  - 範例說明[Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) [第4章 資料預處理](https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch04/ch04.ipynb)
+- Feature Extraction特徵提取
+  - see [scikit-learn 新手的晉級](https://www.tenlong.com.tw/products/9789864344840)第4章：特徵提取
+    - 從`分類變數(categorical variable))`中提取特徵: ` one-of-k 編碼(one-of-k encoding) | 獨熱編碼(one-hot encoding)`
+      -  https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition/blob/master/chapter04/ed2-ch4-s1.ipynb
+    - 特徵標準化: prepocessing 模組的scale 函數 | StandardScaler | RobustScaler  [sklearn.preprocessing]()
+      - [sklearn.preprocessing.scale](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.scale.html)
+        - https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition/blob/master/chapter04/e2-ch4-s2.ipynb
+      - [StandardScaler (平均值和標準差)sklearn.preprocessing.StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)
+      - [MinMaxScaler(最小最大值標準化)sklearn.preprocessing.MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html)
+      - [MaxAbsScaler（絕對值最大標準化）sklearn.preprocessing.MaxAbsScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MaxAbsScaler.html)
+      - [RobustScaler|sklearn.preprocessing.RobustScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html)
+      - 解說
+        - https://ithelp.ithome.com.tw/articles/10240494
+        - [【特徵工程】嘔心之作——深度瞭解特徵工程](https://www.796t.com/content/1542164169.html)
+        - [Scikit-learn Preprocessing 预处理](https://blog.csdn.net/Dream_angel_Z/article/details/49406573)
+    - 從文本(text)中提取特徵: 「詞袋模型」(bag-of-words model) |「字嵌入」(word embedding) 文字如何向量化?  有用到再補充說明  
+    - 從影像(image)中提取特徵: 深度學習會教
+- supervised learning:兩元分類 vs 多元分類
+  - 分類演算法
+    - k-nearest neighbors algorithm (k-NN)分類
+    - logistic regression(這是分類演算法)
+    - Decision Tree(決策樹)
+    - SVM(Support vector machines支援向量機)
+    - ensemble learning(下周上課主題)
+  - 分類演算法評估指標
+    - 兩元分類評估指標:準確率(accuracy) |精準率(precision) | 召回率(recall) | Fl 分數／ Fl 度量(F1 measure) | ROC AUC 分數
+    - 多元分類 評估指標:Hamming loss （漢明損失）| Jaccard similarity（傑卡德相似係數）
+      - Hamming loss 是不正確標籤的平均比例
+        - Hamming loss是一種損失函數，其完美得分是0 
+      - Jaccard similarity |Jaccard index 是預測標籤和真實標籤「交集」(intersection) 的數量除以預測標籤和真實標籤「聯集」(union) 的數量
+        - 取值範圍是0 到1, 1 是完美得分 
+      - https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition/blob/master/chapter06/ed2-ch6-s4.ipynb
+  - 應用
+    - Binary classification兩元分類
+      - Pima印地安人糖尿病預測模型
+      - Breast Cancer Wisconsin (Diagnostic) Data Set
+      - 垃圾郵件過濾(spam filtering) see [scikit-learn 新手的晉級](https://www.tenlong.com.tw/products/9789864344840) [第6章]
+        - https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition/blob/master/chapter06/ed2-ch6-s0.ipynb
+        - https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-Second-Edition/blob/master/chapter06/ed2-ch6-s1.ipynb 
+    - multi-label classification)多元分類
+      - IRIS
+      - 路透社新聞分類
 
+- 模型評估和參數調校Model Evaluation and Hyperparameter Tuning
+  - see Python Machine Learning: Machine Learning and Deep Learning with Python, scikit-learn, and TensorFlow, 3/e
+  - [Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) [第6章](https://github.com/rasbt/python-machine-learning-book-3rd-edition/tree/master/ch06)
+    - 以管線來簡化工作流程
+    - 使用k折交叉驗證法來評估模型效能
+    - 使用學習曲線和驗證曲線來對演算法除錯
+    - 以`網格搜尋(grid search)`微調機器學習模型
+    - 其他不同的效能指標
+    - 處理類別不平衡的狀況
+- supervised learning:迴歸分析
+  - see Python Machine Learning: Machine Learning and Deep Learning with Python, scikit-learn, and TensorFlow, 3/e
+  - [Python 機器學習 (上), 3/e](https://www.tenlong.com.tw/products/9789864345182) [第10章 以迴歸分析預測連續目標變數](https://github.com/rasbt/python-machine-learning-book-3rd-edition/tree/master/ch10)
+    - 探索房屋數據集
+    - 使用RANSAC找出強固的迴歸模型
+    - 評估線性迴歸模型的效能
+    - 使用正規化方法做迴歸
+    - 將線性迴歸模型轉成曲線－多項式迴歸
+    - 使用隨機森林處理非線性關係[next week]
+ - Ubsupervised learning:叢集分析
+   - 快速研讀 [scikit-learn 新手的晉級：實作各種機器學習解決方案 (Mastering Machine Learning with scikit-learn, 2/e)Gavin Hackeling](https://www.tenlong.com.tw/products/9789864344840)
+     - 第13章：K-MEANS演算法
+     - 分群
+     - K-MEANS演算法
+     - 評估集群:輪廓分數Silhouette score
+   - 進階研讀 Hands-On Unsupervised Learning with Python(2019) Giuseppe Bonaccorso 第 2章　聚類基礎知識
+     - 2.5　評估指標
+     - 2.5.1　最小化慣性
+     - 2.5.2　輪廓分數Silhouette score
+     - 2.5.3　完整性分數Completeness score    from sklearn.metrics import completeness_score
+     - 2.5.4　同質性分數Homogeneity score    from sklearn.metrics import homogeneity_score
+     - 2.5.5　調整後的相互信息分數Adjusted Mutual Information (AMI) score from sklearn.metrics import adjusted_mutual_info_score
+     - V-measure  from sklearn.metrics import v_measure_score
+     - 2.5.6　調整後的蘭德分數Adjusted Rand score from sklearn.metrics import adjusted_rand_score
+     - 2.5.7　列聯矩陣Contingency matrix   from sklearn.metrics.cluster import contingency_matrix
